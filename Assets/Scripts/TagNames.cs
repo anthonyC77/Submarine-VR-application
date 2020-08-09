@@ -22,6 +22,14 @@ public static class TagNames
     public const string READ = "Read";
     public const string REC = "Rec";
     public const string STOP = "Stop";
-    public const string COUNTBALL = "CountBall";
+    public const string COUNTBALL = "CountBall"; // Minutes
+    public const string MINUTE = "Minute";
+    public static readonly string RED = "Red";
+    public static readonly string GREEN = "Green";
+    public static readonly string HEADPHONE = "Headphone";
+    public static readonly string MUSIC = "Music";
+    public static readonly string FLOOR = "Floor"; 
+    public static readonly string JOUEUR = "Joueur";
+    public static readonly string CHAKRA = "Chakra";
 
 }

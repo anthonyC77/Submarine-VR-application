@@ -35,10 +35,44 @@ public static class SavePlayInFile
         }
     }
 
-    public static void SaveinXml(List<ICommand> datas)
+    private static int GetIdFile()
     {
-        string path = Application.persistentDataPath + "/MusicPlayed.dat";
-        File.Delete(path);
+        var path = Application.persistentDataPath;
+        var pathFile = path + "/MusicPlayed";
+        var extension = ".dat";
+        var dir = new DirectoryInfo(path);
+        var files = dir.GetFiles();
+        int nbLast = 0;
+
+        if (files.Length == 0)
+        {
+            return 0;
+        }
+
+        foreach (FileInfo file in files)
+        {
+            string id = file.Name.Replace("MusicPlayed", string.Empty)
+                            .Replace(extension, string.Empty);
+            int nb = int.Parse(id) + 1;
+            if (nb > nbLast)
+            {
+                nbLast = nb;
+            }
+        }
+        
+
+        return nbLast;
+    }
+
+    private static string GetFileById(int id)
+    {
+        return Application.persistentDataPath + $"/MusicPlayed{id}.dat";
+    }
+
+    public static int SaveinXml(List<ICommand> datas)
+    {
+        int id = GetIdFile();
+        string path = GetFileById(id);
         File.AppendAllText(path, "<Movements>");
 
         using (FileStream file = File.Open(path, FileMode.Append))
@@ -54,12 +88,15 @@ public static class SavePlayInFile
         }
 
         File.AppendAllText(path, "</Movements>");
+
+        return id;
     }
 
-    public static void ReadFromXml()
+    public static void ReadFromXml(int id)
     {
         var kikongi = Helper.FindByTag(TagNames.KIKONGI);
-        XDocument xdoc = XDocument.Load(Application.persistentDataPath + "/MusicPlayed.dat");
+        string path = GetFileById(id);
+        XDocument xdoc = XDocument.Load(path);
         foreach (XNode node in xdoc.DescendantNodes())
         {
             if (node is XElement)

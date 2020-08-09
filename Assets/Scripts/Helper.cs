@@ -75,9 +75,9 @@ public class Helper
         }
     }
 
-    public static List<Transform> FindChildrensByTag(string tag)
+    public static List<T> FindChildrensByTag<T>(string tag)
     {
-       return FindByTag(tag).GetComponentsInChildren<Transform>().ToList();  
+       return FindByTag(tag).GetComponentsInChildren<T>().ToList();  
     }
 
     public static List<GameObject> FindByTags(string tag)

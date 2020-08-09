@@ -19,6 +19,10 @@ public class Mailloche : MonoBehaviour
     Recorder recorder;
     GameObject CountBall;
     GameObject Aiguille;
+    List<Renderer> MinuteBallsRenderers;
+    bool rec = false;
+    public GameObject HeadPhone;
+    public List<GameObject> Chakras;
 
     public GameObject Kikongi;
     
@@ -69,6 +73,8 @@ public class Mailloche : MonoBehaviour
         Aiguille = Helper.FindByTag(TagNames.CIRCLERED);
         Indications.SetActive(false);
         recorder = new Recorder();
+        MinuteBallsRenderers = Helper.FindChildrensByTag<Renderer>(TagNames.MINUTE);
+        Chakras = Helper.FindByTags(TagNames.CHAKRA);
     }
 
     // Update is called once per frame
@@ -80,16 +86,42 @@ public class Mailloche : MonoBehaviour
         
     }
     float sec = 1;
+    float min = 1;
     IEnumerator time()
     {        
         if (recorder.PrecTypeActionRecorder == eTypeActionRecorder.Rec)
         {
-            while (sec < 60)
+            while (sec < 481 && rec)
             {
                 Aiguille.transform.Rotate(new Vector3(0, 6, 0));
+
+                int idBall = (int)(sec / 60);
+                var limit = idBall * 60;
+                if (idBall > 0)
+                {
+                    var getCurrentBall = MinuteBallsRenderers.Where(b => b.name.Equals(TagNames.MINUTE + idBall)).FirstOrDefault();
+
+                    if (sec == limit + 1)
+                    {
+                        getCurrentBall.material = Helper.GetRecorderMaterial(TagNames.RED);
+                    }
+                }
+                
+
                 sec++;
+
+                if (sec == 480)
+                {
+                    recorder.StopAndRec();
+                    foreach (Renderer renderer in MinuteBallsRenderers)
+                    {
+                        renderer.material = Helper.GetRecorderMaterial((TagNames.GREEN));
+                    }
+                    Aiguille.transform.rotation = new Quaternion(0, 0, 0, 0);
+                }
+
                 yield return new WaitForSeconds(1);
-            }
+            } 
         }        
     }
 
@@ -123,6 +155,12 @@ public class Mailloche : MonoBehaviour
         }
     }
 
+    private void PlayHeadPhone(string name)
+    {
+        int nb = int.Parse(name.Replace(TagNames.HEADPHONE, string.Empty));
+        CommandManager.Instance.Play(nb);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         string colliderName = other.name;
@@ -134,16 +172,44 @@ public class Mailloche : MonoBehaviour
             ActionOnPlanets(colliderName);
         }
 
+        if (colliderName.StartsWith(TagNames.HEADPHONE))
+        {
+            PlayHeadPhone(colliderName);
+        }
+
         if (Recorder.ContainsRecorder(other.name))
         {
             recorder.DoAction(other.gameObject);
 
             if (other.name.Equals(TagNames.REC))
             {
-                StartCoroutine(time());
+                rec = true;
+                StartCoroutine(time());                
+            }
+            else
+            {
+                // reinit balls and pendule
+                rec = false;
+                StopCoroutine(time());
+            }
+
+            if (recorder.Recorded)
+            {
+                CreatePrefabHeadphone(recorder.IdFileSaved);
             }
         }        
     }   
+
+    private void CreatePrefabHeadphone(int id)
+    {
+        float posx = -0.176f - 100 * id;
+        float posz = 0.425f - 100 * id;
+        HeadPhone.transform.position = new Vector3(posx, 0.395f, posz);
+        HeadPhone.GetComponentInChildren<TMPro.TextMeshPro>().text = TagNames.MUSIC + " " + id;
+        // set position
+        var clone = Instantiate(HeadPhone);
+        clone.name = TagNames.HEADPHONE + id;
+    }
     
     private void ActionsWithWalls(string colliderName)
     {
@@ -164,6 +230,14 @@ public class Mailloche : MonoBehaviour
         planet.SetMaterial();
         AddPlanetsColored(planet.Planet.name);
         planet.Planet.transform.localScale.Scale(new Vector3(0.5f, 0.5f, 0.5f));
+        ActionOnPlayer(planet.Planet.name);
+    }
+
+    private void ActionOnPlayer(string planetName )
+    {
+        var chakra = Chakras.Where(c => c.name.Equals(TagNames.CHAKRA + planetName)).FirstOrDefault();
+        var emissionChakra = chakra.GetComponentInChildren<ParticleSystem>().emission;
+        emissionChakra.enabled = true;
     }
 
     private void AddPlanetsColored(string name)

@@ -33,9 +33,9 @@ public class CommandManager : MonoBehaviour
         instance = this;        
     }
 
-    private void Load()
+    private void Load(int id)
     {
-        SavePlayInFile.ReadFromXml();
+        SavePlayInFile.ReadFromXml(id);
     }
 
     public void Stop()
@@ -66,10 +66,10 @@ public class CommandManager : MonoBehaviour
         CommandBuffer.Clear();
     }
 
-    public void Play()
+    public void Play(int id)
     {
         isPlaying = true;
-        SavePlayInFile.ReadFromXml();
+        SavePlayInFile.ReadFromXml(id);
         isPlaying = false;
         StartCoroutine(DoRoutine(false));
     }
@@ -79,10 +79,11 @@ public class CommandManager : MonoBehaviour
         StartCoroutine(DoRoutine(true));
     }
 
-    public void SaveInFile()
+    public int SaveInFile()
     {
-        SavePlayInFile.SaveinXml(CommandBuffer);
+        int id = SavePlayInFile.SaveinXml(CommandBuffer);
         CommandBuffer.Clear();
+        return id;
     }
 
     IEnumerator DoRoutine(bool reverse)

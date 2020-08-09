@@ -8,20 +8,30 @@ public class PlanetPosition
     public float unitPosOnColumn = .25f;
     public float sphereScale = 0.1f;
     public float unitPosAfterWall = 4.5f;
-    public float unitPosSun = 1.5f;
 
     public Vector3 Scale { get; set; }
     public Vector3 Position { get; set; }
     private ePlanet Planet;
     private ePositionType Positiontype;
     public string Name { get; set; }
-
+    private float PosYSun;
+     
     public PlanetPosition(ePlanet planet, ePositionType positiontype)
     {
         Planet = planet;
         Positiontype = positiontype;
         Name = planet.ToString();
         SetPositionPlanet();
+    }
+
+    public PlanetPosition(ePlanet planet, ePositionType positiontype, float posYSun)
+        : this(planet, positiontype)
+    {
+        PosYSun = posYSun;
+        Planet = planet;
+        Positiontype = positiontype;
+        Name = planet.ToString();
+        SetPositionPlanet();        
     }
 
     private void SetPositionPlanet()
@@ -90,7 +100,7 @@ public class PlanetPosition
                 break;
         }
         posX = posX / 2;
-        Position = new Vector3(posX, posY, 0);
+        Position = new Vector3(posX, PosYSun, 0);
     }
 
     private void InstantiatePlanet(float unitPos)

@@ -5,7 +5,7 @@ using System.Linq;
 
 public enum eTypeActionRecorder
 {
-    Read,
+    ChooseRead,
     Rec,
     Stop,
 }
@@ -20,6 +20,8 @@ public class Recorder
     private GameObject ButtonRec;
     private GameObject ButtonStop;
     public eTypeActionRecorder PrecTypeActionRecorder;
+    public int IdFileSaved = 0;
+    public bool Recorded = false;
 
     public Recorder()
     {
@@ -34,8 +36,14 @@ public class Recorder
         return new string[] { TagNames.READ, TagNames.REC, TagNames.STOP }.Contains(name);
     }
 
+    public void Reading(int id)
+    {
+        CommandManager.Instance.Play(id);
+    }
+
     public void DoAction(GameObject buttonSelected)
     {
+        Recorded = false;
         string name = buttonSelected.name;
         bool? stopClickable = null;
 
@@ -43,24 +51,21 @@ public class Recorder
 
         switch (typeActionRecorder)
         {
-            case eTypeActionRecorder.Read:
+            case eTypeActionRecorder.ChooseRead:
                 ActionOnButton(false, ButtonRec);
                 stopClickable = true;
-                SetButton(false, buttonSelected);
-                CommandManager.Instance.Play();
-                PrecTypeActionRecorder = eTypeActionRecorder.Read;
+                SetButton(false, buttonSelected);                
+                PrecTypeActionRecorder = eTypeActionRecorder.ChooseRead;
                 break;
             case eTypeActionRecorder.Rec:
                 Color.Lerp(Color.blue, Color.cyan, 10);
-
                 CommandManager.Instance.Start();
                 ActionOnButton(false, ButtonRead);
                 stopClickable = true;
                 SetButton(false, buttonSelected);
                 PrecTypeActionRecorder = eTypeActionRecorder.Rec;
                 break;
-            case eTypeActionRecorder.Stop:
-                CommandManager.Instance.Stop();
+            case eTypeActionRecorder.Stop:                
                 stopClickable = false;
                 ActionAfterStop();
                 break;
@@ -72,15 +77,24 @@ public class Recorder
         
     }
 
+    public void StopAndRec()
+    { 
+        CommandManager.Instance.Stop();
+        ActionOnButton(false, ButtonStop);
+    }
+
     private void ActionAfterStop()
     {
+        Recorded = false;
+        CommandManager.Instance.Stop();
         switch (PrecTypeActionRecorder)
         {
-            case eTypeActionRecorder.Read:
+            case eTypeActionRecorder.ChooseRead:
                 CommandManager.Instance.StopReading();
                 break;
-            case eTypeActionRecorder.Rec:                
-                CommandManager.Instance.SaveInFile();
+            case eTypeActionRecorder.Rec:
+                IdFileSaved = CommandManager.Instance.SaveInFile();
+                Recorded = true;
                 break;
             case eTypeActionRecorder.Stop:
                 break;

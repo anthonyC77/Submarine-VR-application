@@ -81,7 +81,7 @@ public class Planet : MonoBehaviour
         //    SetPosPlanetAfterWall();
         //}
 
-        if (other.tag.Equals(TagNames.SUNCOLLISION))
+        if (other.tag.Equals(TagNames.JOUEUR))
         {
             SetPosPlanetAroundTheSun();
         }
@@ -107,15 +107,20 @@ public class Planet : MonoBehaviour
 
     private void SetPosPlanetAroundTheSun()
     {
-        this.GetComponent<Rigidbody>().useGravity = false;
-        this.GetComponent<Rigidbody>().isKinematic = true;
         var grab = this.GetComponent<OVRGrabbable>();
-        grab.enabled = true;
-        grab.M_GrabPoints = null;
-        ePlanet planet = Helper.GetEnumValueByName<ePlanet>(this.name);
-        PlanetPosition planetPosition = new PlanetPosition(planet, ePositionType.AROUNDSUN);
-        this.transform.position = planetPosition.Position;
-        RotationMode = true;        
+        
+        if (grab.allowOffhandGrab)
+        {
+            grab.allowOffhandGrab = false;
+            grab.enabled = false;
+            grab.M_GrabPoints = null;
+            this.GetComponent<Rigidbody>().useGravity = false;
+            this.GetComponent<Rigidbody>().isKinematic = true;
+            ePlanet planet = Helper.GetEnumValueByName<ePlanet>(this.name);
+            PlanetPosition planetPosition = new PlanetPosition(planet, ePositionType.AROUNDSUN);
+            this.transform.position = planetPosition.Position;
+            RotationMode = true;
+        }   
     }
 
     

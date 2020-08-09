@@ -24,6 +24,10 @@ TagManager:
   - CountBall
   - CircleRed
   - Minute
+  - Minutes
+  - Floor
+  - Joueur
+  - Chakra
   layers:
   - Default
   - TransparentFX
