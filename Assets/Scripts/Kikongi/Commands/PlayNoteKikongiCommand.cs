@@ -14,12 +14,29 @@ public class PlayNoteKikongiCommand : ICommand, ISerializable
     public DateTime DatePlay { get; set; }
     [SerializeField]
     public string NoteName { get; set; }
+    [SerializeField]
+    public float HitVol { get; set; }
+    private float lowPitchRange = .75f;
+    private float highPitchRange = 1.5f;
+    private float velToVol = .2f;
+    private float velocityClipSplit = 10f;
+    private Collision CollisionNote;
 
-    public PlayNoteKikongiCommand(AudioSource surfaceKikongi)
+    public PlayNoteKikongiCommand(AudioSource surfaceKikongi, Collision collision)
     {
         SurfaceKikongi = surfaceKikongi;
         NoteName = surfaceKikongi.name;
-    }
+        CollisionNote = collision;
+        //SurfaceKikongi.pitch = UnityEngine.Random.Range(lowPitchRange, highPitchRange);
+
+        float magnitude = CollisionNote.relativeVelocity.sqrMagnitude;
+        if (magnitude == 0)
+        {
+            magnitude += 1f;
+        }
+        HitVol = magnitude * velToVol;
+        
+    }    
 
     public PlayNoteKikongiCommand(AudioSource[] surfacesKikongi, eNote noteName)
     {
@@ -32,11 +49,16 @@ public class PlayNoteKikongiCommand : ICommand, ISerializable
 
     public void Execute()
     {
-        SurfaceKikongi.PlayOneShot(SurfaceKikongi.clip);
+        // todo sound fort and low
+        //if (CollisionNote.relativeVelocity.sqrMagnitude < velocityClipSplit)
+        //    SurfaceKikongi.PlayOneShot(SurfaceKikongi.clip, HitVol);
+        //else
+        SurfaceKikongi.PlayOneShot(SurfaceKikongi.clip, HitVol);
     }
     
     public void GetObjectData(SerializationInfo info, StreamingContext context)
     {
+        info.AddValue("HitVol", HitVol, typeof(float));
         info.AddValue("DatePlay", DatePlay, typeof(DateTime));
         info.AddValue("NoteName", NoteName, typeof(string));    
     }

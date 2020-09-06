@@ -35,12 +35,18 @@ public static class SavePlayInFile
         }
     }
 
-    private static int GetIdFile()
+    private static DirectoryInfo GetDirInfo()
     {
         var path = Application.persistentDataPath;
         var pathFile = path + "/MusicPlayed";
-        var extension = ".dat";
         var dir = new DirectoryInfo(path);
+        return dir;
+    }
+
+    private static int GetIdFile()
+    {
+        var extension = ".dat";
+        var dir = GetDirInfo();
         var files = dir.GetFiles();
         int nbLast = 0;
 
@@ -92,9 +98,22 @@ public static class SavePlayInFile
         return id;
     }
 
+    public static void DeleteFromXml(int id)
+    {
+        var kikongi = Helper.FindByTag(Names.KIKONGI);
+        string path = GetFileById(id);
+        File.Delete(path);
+    }
+
+    public static int GetNbFiles()
+    {
+        var dir = GetDirInfo();
+        return dir.GetFiles().Length;
+    }
+
     public static void ReadFromXml(int id)
     {
-        var kikongi = Helper.FindByTag(TagNames.KIKONGI);
+        var kikongi = Helper.FindByTag(Names.KIKONGI);
         string path = GetFileById(id);
         XDocument xdoc = XDocument.Load(path);
         foreach (XNode node in xdoc.DescendantNodes())

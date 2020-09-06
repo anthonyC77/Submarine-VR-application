@@ -7,4 +7,5 @@ public interface ICommand
 {
     void Execute();
     DateTime DatePlay { get; set; }
+    float HitVol { get; set; }
 }   

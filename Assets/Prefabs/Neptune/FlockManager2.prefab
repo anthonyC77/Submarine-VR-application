@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4537963397475395582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3189196529972083582}
+  - component: {fileID: 2404342128640385711}
+  m_Layer: 0
+  m_Name: FlockManager2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3189196529972083582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4537963397475395582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.67, y: 18.86, z: -2.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2404342128640385711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4537963397475395582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a732d88ec6406498237f9e10c236cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FishPrefab: {fileID: 4646729797372467322, guid: 763f2f82130cf0d4882127fb2c53ecad,
+    type: 3}
+  NumFish: 1000
+  AllFish: []
+  SwimLimits: {x: 2, y: 5, z: 8}
+  GoalPos: {x: 0, y: 0, z: 0}
+  MinSpeed: 0.44
+  MaxSpeed: 1.18
+  NeighbourDistance: 2.97
+  RotationSpeed: 1.27
+  DistanceBetweenFishes: 10

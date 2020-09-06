@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3879445990903203869}
   - component: {fileID: 3879445990903203868}
-  - component: {fileID: 7295546471541442255}
   - component: {fileID: 9101422265440153970}
+  - component: {fileID: 7295546471541442255}
   - component: {fileID: 248104270306876822}
   m_Layer: 0
   m_Name: Mailloche
@@ -48,19 +48,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c28bf5eef22ce6e41a34fdc96aaf7289, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!135 &7295546471541442255
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3879445990903203867}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.01
-  m_Center: {x: 0.0873, y: -0.0446, z: -0.0008}
+  ThrowForce: 10
+  Camera: {fileID: 0}
+  HeadPhone: {fileID: 0}
+  Chakras: []
+  Kikongi: {fileID: 0}
 --- !u!54 &9101422265440153970
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -77,6 +69,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &7295546471541442255
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3879445990903203867}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.01
+  m_Center: {x: 0.0873, y: -0.0446, z: -0.0008}
 --- !u!114 &248104270306876822
 MonoBehaviour:
   m_ObjectHideFlags: 0

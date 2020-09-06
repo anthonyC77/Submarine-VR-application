@@ -11,13 +11,15 @@ public class ColliderNote : ColliderActions
     public AudioSource[] Sounds { get; set; }
     private GameObject Note;
     private GameObject Sun;
+    private Collision CollisionNote;
 
-    public ColliderNote(AudioSource[] sounds, List<GameObject> listColliders, string colliderName, GameObject sun)
+    public ColliderNote(AudioSource[] sounds, List<GameObject> listColliders, string colliderName, GameObject sun, Collision collision)
         : base(listColliders, colliderName)
     {
         Sounds = sounds;
         Note = GetColliderByName();
         Sun = sun;
+        CollisionNote = collision;
     }
 
     public void Play()
@@ -27,7 +29,7 @@ public class ColliderNote : ColliderActions
         PlayingSound = GetSoundToPlay();
         var note = Helper.GetNoteCalled(Note.name);
         LightPLanetTrajectoire(note);
-        var playCommand = new PlayNoteKikongiCommand(PlayingSound);        
+        var playCommand = new PlayNoteKikongiCommand(PlayingSound, CollisionNote);        
         playCommand.Execute();
         instanceCommandManager.AddCommand(playCommand);
     }

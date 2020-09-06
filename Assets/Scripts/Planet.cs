@@ -20,12 +20,12 @@ public class Planet : MonoBehaviour
 
     private void Awake()
     {
-        Walls = Helper.FindByTags(TagNames.WALLS);
-        Notes = Helper.FindByTags(TagNames.NOTES);
-        Planets = Helper.FindByTags(TagNames.PLANETS);
-        PosRotPlanets = Helper.FindByTags(TagNames.POSROTPLANET);
+        Walls = Helper.FindByTags(Names.WALLS);
+        Notes = Helper.FindByTags(Names.NOTES);
+        Planets = Helper.FindByTags(Names.PLANETS);
+        PosRotPlanets = Helper.FindByTags(Names.POSROTPLANET);
         InitPosPlanet = this.transform.position;
-        Sun = Helper.FindByTag(TagNames.SUN);
+        Sun = Helper.FindByTag(Names.SUN);
     }
 
     IEnumerator FadeWallColor(float duration)
@@ -38,7 +38,6 @@ public class Planet : MonoBehaviour
             yield return null;
         }
     }
-
 
     // Update is called once per frame
     void Update()
@@ -81,7 +80,7 @@ public class Planet : MonoBehaviour
         //    SetPosPlanetAfterWall();
         //}
 
-        if (other.tag.Equals(TagNames.JOUEUR))
+        if (other.tag.Equals(Names.JOUEUR))
         {
             SetPosPlanetAroundTheSun();
         }
@@ -103,7 +102,6 @@ public class Planet : MonoBehaviour
         this.GetComponent<Rigidbody>().useGravity = false;
         this.GetComponent<Rigidbody>().isKinematic = true;
     }
-
 
     private void SetPosPlanetAroundTheSun()
     {

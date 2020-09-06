@@ -18,13 +18,15 @@ public class SwordMovements : MonoBehaviour
     GameObject Kikongi;
     Vector3 destinationKikongi;
     bool SetKikongiColumnParent = true;
+    float swordOutTheRock = 0.018f;
+    bool swordIsInRock = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        Column = GameObject.FindGameObjectWithTag(TagNames.COLUMN);
-        CenterColumn = GameObject.FindGameObjectWithTag(TagNames.CENTERCOLUMN);
-        Kikongi = GameObject.FindGameObjectWithTag(TagNames.KIKONGI);
+        Column = GameObject.FindGameObjectWithTag(Names.COLUMN);
+        CenterColumn = GameObject.FindGameObjectWithTag(Names.CENTERCOLUMN);
+        Kikongi = GameObject.FindGameObjectWithTag(Names.KIKONGI);
         CubesPivotDistance = CubeSize * CubesInFLow / 2;
         CubesPivot = new Vector3(CubesPivotDistance, CubesPivotDistance, CubesPivotDistance);
         destinationKikongi = new Vector3(1f, 0.005f, 0f);    
@@ -37,6 +39,21 @@ public class SwordMovements : MonoBehaviour
         {
             ColumnRiseUp();
         }
+
+        if (swordIsInRock)
+        {
+            SwordOutTheRock();
+        }
+    }
+
+    private void SwordOutTheRock()
+    {
+        if (this.transform.position.y > swordOutTheRock)
+        {
+            var rigidbody = this.GetComponent<Rigidbody>();
+            rigidbody.constraints = RigidbodyConstraints.None;
+            swordIsInRock = false;
+        }        
     }
 
     private void ColumnRiseUp()
@@ -68,12 +85,17 @@ public class SwordMovements : MonoBehaviour
         
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag.Equals(TagNames.ICECUBE))
+        if (other.tag.Equals(Names.ICECUBE))
         {
             SwordOnIce.PlayOneShot(SwordOnIce.clip);
             Explode(other.gameObject);
             colRiseUp = true;
-        }    
+        }
+
+        if (other.tag.Equals(Names.ROCK) && !swordIsInRock)
+        {
+            this.transform.Translate(new Vector3(0.01f, 0.01f, 0.01f));
+        }
     }
 
     private void Explode(GameObject cube)
@@ -104,7 +126,7 @@ public class SwordMovements : MonoBehaviour
         piece = GameObject.CreatePrimitive(PrimitiveType.Cube);
         piece.transform.position = cube.transform.position + new Vector3(CubeSize * x, CubeSize * y, CubeSize * z) - CubesPivot;
         piece.transform.localScale = new Vector3(CubeSize, CubeSize, CubeSize);
-        piece.tag = TagNames.ICECUBE;
+        piece.tag = Names.ICECUBE;
         piece.AddComponent<Rigidbody>();
         piece.GetComponent<Rigidbody>().mass = CubeSize;
         piece.GetComponent<Renderer>().material = cube.GetComponent<Renderer>().material;

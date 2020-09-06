@@ -23,6 +23,7 @@ public class Mailloche : MonoBehaviour
     bool rec = false;
     public GameObject HeadPhone;
     public List<GameObject> Chakras;
+    GameObject NetPlanet;
 
     public GameObject Kikongi;
     
@@ -41,7 +42,7 @@ public class Mailloche : MonoBehaviour
         sphere.transform.localScale = planetPosition.Scale;
         sphere.transform.position = planetPosition.Position;
         sphere.name = planetPosition.Name;
-        sphere.tag = TagNames.PLANETS;
+        sphere.tag = Names.PLANETS;
         sphere.GetComponent<MeshRenderer>().material = (Material)Resources.Load("Materials/Transparent", typeof(Material));
         var rigidBody = sphere.AddComponent<Rigidbody>();
         rigidBody.useGravity = true;
@@ -64,17 +65,18 @@ public class Mailloche : MonoBehaviour
     void Start()
     {
         SetPlanetsPosition();
-        Walls = GameObject.FindGameObjectsWithTag(TagNames.WALLS).ToList();
-        Notes = GameObject.FindGameObjectsWithTag(TagNames.NOTES).ToList();
-        Planets = GameObject.FindGameObjectsWithTag(TagNames.PLANETS).ToList();
-        Sun = GameObject.FindGameObjectWithTag(TagNames.SUN);
-        Indications = GameObject.FindGameObjectWithTag(TagNames.INDICATIONS);
-        CountBall = GameObject.FindGameObjectWithTag(TagNames.COUNTBALL);
-        Aiguille = Helper.FindByTag(TagNames.CIRCLERED);
+        Walls = GameObject.FindGameObjectsWithTag(Names.WALLS).ToList();
+        Notes = GameObject.FindGameObjectsWithTag(Names.NOTES).ToList();
+        Planets = GameObject.FindGameObjectsWithTag(Names.PLANETS).ToList();
+        Sun = GameObject.FindGameObjectWithTag(Names.SUN);
+        Indications = GameObject.FindGameObjectWithTag(Names.INDICATIONS);
+        CountBall = GameObject.FindGameObjectWithTag(Names.COUNTBALL);
+        Aiguille = Helper.FindByTag(Names.CIRCLERED);
+        NetPlanet = Helper.FindByTag(Names.NETPLANET);
         Indications.SetActive(false);
         recorder = new Recorder();
-        MinuteBallsRenderers = Helper.FindChildrensByTag<Renderer>(TagNames.MINUTE);
-        Chakras = Helper.FindByTags(TagNames.CHAKRA);
+        MinuteBallsRenderers = Helper.FindChildrensByTag<Renderer>(Names.MINUTE);
+        Chakras = Helper.FindByTags(Names.CHAKRA);
     }
 
     // Update is called once per frame
@@ -99,11 +101,11 @@ public class Mailloche : MonoBehaviour
                 var limit = idBall * 60;
                 if (idBall > 0)
                 {
-                    var getCurrentBall = MinuteBallsRenderers.Where(b => b.name.Equals(TagNames.MINUTE + idBall)).FirstOrDefault();
+                    var getCurrentBall = MinuteBallsRenderers.Where(b => b.name.Equals(Names.MINUTE + idBall)).FirstOrDefault();
 
                     if (sec == limit + 1)
                     {
-                        getCurrentBall.material = Helper.GetRecorderMaterial(TagNames.RED);
+                        getCurrentBall.material = Helper.GetRecorderMaterial(Names.RED);
                     }
                 }
                 
@@ -115,7 +117,7 @@ public class Mailloche : MonoBehaviour
                     recorder.StopAndRec();
                     foreach (Renderer renderer in MinuteBallsRenderers)
                     {
-                        renderer.material = Helper.GetRecorderMaterial((TagNames.GREEN));
+                        renderer.material = Helper.GetRecorderMaterial((Names.GREEN));
                     }
                     Aiguille.transform.rotation = new Quaternion(0, 0, 0, 0);
                 }
@@ -157,22 +159,33 @@ public class Mailloche : MonoBehaviour
 
     private void PlayHeadPhone(string name)
     {
-        int nb = int.Parse(name.Replace(TagNames.HEADPHONE, string.Empty));
+        int nb = int.Parse(name.Replace(Names.HEADPHONE, string.Empty));
         CommandManager.Instance.Play(nb);
     }
 
-    private void OnTriggerEnter(Collider other)
+    bool playable = true;
+
+    private void OnCollisionEnter(Collision collision)
     {
-        string colliderName = other.name;
+        string colliderName = collision.collider.name;
 
         if (Helper.IsNoteCalled(colliderName))
         {
+            Debug.Log("Called sound on " + colliderName);
             //ActionsWithWalls(colliderName);
-            ActionsWithKikongiSounds(colliderName);
+            ActionsWithKikongiSounds(colliderName, collision);
             ActionOnPlanets(colliderName);
+            this.gameObject.transform.Translate(new Vector3(0, 0.01f, 0));
         }
 
-        if (colliderName.StartsWith(TagNames.HEADPHONE))
+        OnTriggerEnterPersonal(collision.collider);
+    }
+
+    private void OnTriggerEnterPersonal(Collider other)
+    {
+        string colliderName = other.name;
+
+        if (colliderName.StartsWith(Names.HEADPHONE))
         {
             PlayHeadPhone(colliderName);
         }
@@ -181,7 +194,7 @@ public class Mailloche : MonoBehaviour
         {
             recorder.DoAction(other.gameObject);
 
-            if (other.name.Equals(TagNames.REC))
+            if (other.name.Equals(Names.REC))
             {
                 rec = true;
                 StartCoroutine(time());                
@@ -197,6 +210,15 @@ public class Mailloche : MonoBehaviour
             {
                 CreatePrefabHeadphone(recorder.IdFileSaved);
             }
+
+            if (recorder.ReadingMode)
+            {
+                int nb = CommandManager.Instance.GetAllFiles();
+                for (int i = 0; i < nb; i++)
+                {
+                    CreatePrefabHeadphone(i);
+                }
+            }
         }        
     }   
 
@@ -205,10 +227,9 @@ public class Mailloche : MonoBehaviour
         float posx = -0.176f - 100 * id;
         float posz = 0.425f - 100 * id;
         HeadPhone.transform.position = new Vector3(posx, 0.395f, posz);
-        HeadPhone.GetComponentInChildren<TMPro.TextMeshPro>().text = TagNames.MUSIC + " " + id;
-        // set position
+        HeadPhone.GetComponentInChildren<TMPro.TextMeshPro>().text = Names.MUSIC + " " + id;
         var clone = Instantiate(HeadPhone);
-        clone.name = TagNames.HEADPHONE + id;
+        clone.name = Names.HEADPHONE + id;
     }
     
     private void ActionsWithWalls(string colliderName)
@@ -217,10 +238,10 @@ public class Mailloche : MonoBehaviour
         colliderWall.SetWallColor();
     }
 
-    private void ActionsWithKikongiSounds(string colliderName)
+    private void ActionsWithKikongiSounds(string colliderName, Collision collision)
     {
         var soundsKikongi = Kikongi.GetComponentsInChildren<AudioSource>();
-        Note = new ColliderNote(soundsKikongi, Notes, colliderName, Sun);
+        Note = new ColliderNote(soundsKikongi, Notes, colliderName, Sun, collision);
         Note.Play();
     }    
 
@@ -235,7 +256,7 @@ public class Mailloche : MonoBehaviour
 
     private void ActionOnPlayer(string planetName )
     {
-        var chakra = Chakras.Where(c => c.name.Equals(TagNames.CHAKRA + planetName)).FirstOrDefault();
+        var chakra = Chakras.Where(c => c.name.Equals(Names.CHAKRA + planetName)).FirstOrDefault();
         var emissionChakra = chakra.GetComponentInChildren<ParticleSystem>().emission;
         emissionChakra.enabled = true;
     }

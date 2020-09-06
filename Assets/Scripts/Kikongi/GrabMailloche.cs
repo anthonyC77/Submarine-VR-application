@@ -21,6 +21,6 @@ public class GrabMailloche : OVRGrabbable
     protected new void Start()
     {
         base.Start();
-        Recorder = Helper.FindByTag(TagNames.RECORDER);
+        Recorder = Helper.FindByTag(Names.RECORDER);
     }
 }

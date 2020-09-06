@@ -18,7 +18,7 @@ public class SunAttraction : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.tag.Equals(TagNames.PLANETS))
+        if (collision.collider.tag.Equals(Names.PLANETS))
         {
             var name = collision.collider.name;
             var planet = Helper.GetEnumValueByName<ePlanet>(name);

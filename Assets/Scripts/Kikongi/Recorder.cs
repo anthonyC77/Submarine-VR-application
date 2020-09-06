@@ -16,24 +16,37 @@ public class Recorder
     private float clickablePos = 0.0300000f;
     private List<Transform> TransformsButton;
     private List<GameObject> Buttons;
+    private GameObject ButtonErase;
     private GameObject ButtonRead;
     private GameObject ButtonRec;
     private GameObject ButtonStop;
     public eTypeActionRecorder PrecTypeActionRecorder;
+    public bool ReadingMode = false;
     public int IdFileSaved = 0;
     public bool Recorded = false;
 
+
+    public Recorder(GameObject buttonRead, GameObject buttonStop, GameObject buttonErase)
+    {        
+        ButtonRead = buttonRead;
+        ButtonStop = buttonStop;
+        ButtonErase = buttonErase;
+        ButtonRec = null;
+        SetButton(true, ButtonRead);
+    }
+
     public Recorder()
     {
-        ButtonRead = Helper.FindByTag(TagNames.READ);
-        ButtonRec = Helper.FindByTag(TagNames.REC);
-        ButtonStop = Helper.FindByTag(TagNames.STOP);
+        ButtonRead = Helper.FindByTag(Names.READ);
+        ButtonRec = Helper.FindByTag(Names.REC);
+        ButtonStop = Helper.FindByTag(Names.STOP);
+        ButtonErase = null;
         Init();        
     }
 
     public static bool ContainsRecorder(string name)
     {
-        return new string[] { TagNames.READ, TagNames.REC, TagNames.STOP }.Contains(name);
+        return new string[] { Names.READ, Names.REC, Names.STOP }.Contains(name);
     }
 
     public void Reading(int id)
@@ -43,6 +56,7 @@ public class Recorder
 
     public void DoAction(GameObject buttonSelected)
     {
+        ReadingMode = false;
         Recorded = false;
         string name = buttonSelected.name;
         bool? stopClickable = null;
@@ -56,6 +70,7 @@ public class Recorder
                 stopClickable = true;
                 SetButton(false, buttonSelected);                
                 PrecTypeActionRecorder = eTypeActionRecorder.ChooseRead;
+                ReadingMode = true;
                 break;
             case eTypeActionRecorder.Rec:
                 Color.Lerp(Color.blue, Color.cyan, 10);
@@ -108,7 +123,7 @@ public class Recorder
 
     private void ActionOnButton(bool? stopClickable, GameObject button)
     {
-        if (stopClickable.HasValue)
+        if (button != null && stopClickable.HasValue)
         {
             SetButton(stopClickable.Value, button);
         }
@@ -118,14 +133,13 @@ public class Recorder
     {
         bool hasRecords = HasRecords();
         SetButton(hasRecords, ButtonRead);
-
         SetButton(true, ButtonRec);
     }
 
     private bool HasRecords()
     {
-        // todo manager
-        return true;
+        var nbfiles = CommandManager.Instance.GetAllFiles();
+        return nbfiles > 0;
     }
 
     private void SetButton(bool clickable, GameObject button)

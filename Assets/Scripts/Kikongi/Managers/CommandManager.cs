@@ -12,6 +12,7 @@ public class CommandManager : MonoBehaviour
     public bool StartRoutine { get; set; }
     private bool isRecording = false;
     private bool isPlaying = false;
+    
 
     public static CommandManager Instance
     {
@@ -41,6 +42,16 @@ public class CommandManager : MonoBehaviour
     public void Stop()
     {
         isRecording = false;
+    }
+
+    public void Delete(int id)
+    {
+        SavePlayInFile.DeleteFromXml(id);
+    }
+
+    public int GetAllFiles()
+    {
+        return SavePlayInFile.GetNbFiles();
     }
 
     public void Start()

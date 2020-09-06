@@ -8,7 +8,7 @@ public class GrabHeadPhone : OVRGrabbable
     {
         base.GrabBegin(hand, grabPoint);
         var name = this.name;
-        int nb = int.Parse(name.Replace(TagNames.HEADPHONE, string.Empty));
+        int nb = int.Parse(name.Replace(Names.HEADPHONE, string.Empty));
         CommandManager.Instance.Play(nb);
     }
 

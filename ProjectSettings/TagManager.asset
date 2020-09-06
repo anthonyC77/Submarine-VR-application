@@ -28,6 +28,8 @@ TagManager:
   - Floor
   - Joueur
   - Chakra
+  - Rock
+  - NetPlanet
   layers:
   - Default
   - TransparentFX

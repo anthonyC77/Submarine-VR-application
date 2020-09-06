@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class TagNames
+public static class Names
 {
     public static readonly string WALLS = "Walls";
     public static readonly string NOTES = "Notes";
@@ -10,6 +10,7 @@ public static class TagNames
     public static readonly string POSROTPLANET = "PosRotPlanet";
     public static readonly string ICECUBE = "IceCube";
     public static readonly string FLY = "fly";
+    public static readonly string FLYALL = "flyAll";
     public static readonly string COLUMN = "Column";
     public static readonly string CENTERCOLUMN = "CenterColumn";
     public static readonly string KIKONGI = "Kikongi";
@@ -22,6 +23,7 @@ public static class TagNames
     public const string READ = "Read";
     public const string REC = "Rec";
     public const string STOP = "Stop";
+    public const string ERASE = "Erase";
     public const string COUNTBALL = "CountBall"; // Minutes
     public const string MINUTE = "Minute";
     public static readonly string RED = "Red";
@@ -31,5 +33,10 @@ public static class TagNames
     public static readonly string FLOOR = "Floor"; 
     public static readonly string JOUEUR = "Joueur";
     public static readonly string CHAKRA = "Chakra";
+    public static readonly string ROCK = "Rock";
+    public static readonly string NETPLANET = "NetPlanet";
+    public static readonly string BUBBLERISE = "BubbleRise";
+    public static readonly string BUBBLEDIE = "BubbleDie";
+    public static readonly string WHALESONG = "WhaleSong";
 
 }

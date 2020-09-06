@@ -8,7 +8,7 @@ public class Floor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag.Equals(TagNames.ICECUBE))
+        if (other.tag.Equals(Names.ICECUBE))
         {
             FallingCubes.PlayOneShot(FallingCubes.clip);
         }
