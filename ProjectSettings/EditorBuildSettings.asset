@@ -8,15 +8,24 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Oculus/VR/Scenes/HandTest_Custom.unity
     guid: c884d076d6398b54492bcc64bbe30bf5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 9d549c2ea425da44984a3089a786f0e9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 2bcd3b2b5269fe54e9ffcb647f43a141
   - enabled: 1
-    path: Assets/Scenes/Neptune.unity
+    path: Assets/Scenes/Neptune/Neptune.unity
     guid: 70a42b0f9dda5c64987cd56c64c1799f
+  - enabled: 0
+    path: Assets/Oculus/SampleFramework/Usage/CustomHands.unity
+    guid: a4f984fcee593d2418cc61f4a993d46d
+  - enabled: 1
+    path: Assets/Scenes/Neptune/FractalJourney.unity
+    guid: 00b376aa1247c6a48a61eeb8a7de0fc8
+  - enabled: 0
+    path: Assets/Scenes/Neptune/Test.unity
+    guid: ace3d6bdc533ff642b4fa18f73253799
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2c5e9e72459caa84e95b96cd99623e9a,
       type: 2}

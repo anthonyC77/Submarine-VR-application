@@ -9,6 +9,8 @@ public class FlockManager : MonoBehaviour
     public GameObject[] AllFish;
     public Vector3 SwimLimits = new Vector3(3, 5, 5);
     public Vector3 GoalPos;
+    public string Name = "";
+   
 
     [Header("Fish Settings")]
     [Range(0.0f, 5.0f)]
@@ -24,14 +26,22 @@ public class FlockManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        int kikongiFish = 1;
         AllFish = new GameObject[NumFish];
         for (int i = 0; i < NumFish; i++)
         {
             Vector3 pos = GetRandomPos();
+            //FishPrefab.tag = Name + i;
             AllFish[i] = (GameObject)Instantiate(FishPrefab, pos, Quaternion.identity);
             AllFish[i].GetComponent<Flock>().MyManager = this;
-            MyAudioManager.Instance.Play(Names.WHALESONG, AllFish[i]);
+            
+
+            if (!string.IsNullOrEmpty(Name))
+            {
+                FishPrefab.name = Name + kikongiFish;
+                kikongiFish++;
+            }
+            //FishPrefab.tag = Name + i;
         }
 
         GoalPos = this.transform.position;

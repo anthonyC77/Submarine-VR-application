@@ -18,4 +18,6 @@ public class MySound
     public bool Mute = false;
     [Range(0, 1)]
     public float SpatialBlend = 0f;
+    [Range(0, 256)]
+    public int Priority;
 }

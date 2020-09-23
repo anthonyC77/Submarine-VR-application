@@ -29,7 +29,7 @@ public class MyAudioManager : MonoBehaviour
             sound.Source.loop = sound.Loop;
             sound.Source.mute = sound.Mute;
             sound.Source.spatialBlend = sound.SpatialBlend;
-            
+            sound.Source.priority = sound.Priority;
         }
     }
 
@@ -38,7 +38,7 @@ public class MyAudioManager : MonoBehaviour
         Play("Ouverture");
     }
 
-    public void Play(string name, GameObject gameObject)
+    public void Play(string name, GameObject gameObject, bool isHighSound = false)
     {
         MySound s = Array.Find(Sounds, sound => sound.Name.Equals(name));
         if (s == null)
@@ -47,15 +47,24 @@ public class MyAudioManager : MonoBehaviour
             return;
         }
 
-        if (s.IsRandomVolume)
-        {
-            s.Source.PlayOneShot(s.Source.clip, Random.Range(s.Volume / 2, s.Volume));
-        }
-
         var audio = gameObject.AddComponent<AudioSource>();
         audio = s.Source;
 
-        s.Source.PlayOneShot(audio.clip);
+        if (isHighSound)
+        {
+            s.Source.PlayOneShot(s.Source.clip, 1);
+        }
+        else
+        {
+            if (s.IsRandomVolume)
+            {
+                s.Source.PlayOneShot(s.Source.clip, Random.Range(s.Volume / 2, s.Volume));
+            }
+            else
+            {
+                s.Source.PlayOneShot(audio.clip);
+            }
+        }
     }
 
     public void Play(string name)

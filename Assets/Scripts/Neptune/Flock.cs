@@ -18,7 +18,6 @@ public class Flock : MonoBehaviour
     void Update()
     {
         BoundRules();
-
         transform.Translate(0, 0, Time.deltaTime * Speed);
     }
 
@@ -130,5 +129,10 @@ public class Flock : MonoBehaviour
                 transform.rotation = Rotation(direction);
             }
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        
     }
 }

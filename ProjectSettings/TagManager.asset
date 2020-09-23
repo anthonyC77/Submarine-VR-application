@@ -30,6 +30,11 @@ TagManager:
   - Chakra
   - Rock
   - NetPlanet
+  - FishesTrident
+  - FishesKikongi
+  - KikongiMesh
+  - DoorOfPerception
+  - lol
   layers:
   - Default
   - TransparentFX

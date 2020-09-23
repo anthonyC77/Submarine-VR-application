@@ -6,6 +6,7 @@ public static class Names
 {
     public static readonly string WALLS = "Walls";
     public static readonly string NOTES = "Notes";
+    public static readonly string NOTE = "Note";
     public static readonly string PLANETS = "Planets";
     public static readonly string POSROTPLANET = "PosRotPlanet";
     public static readonly string ICECUBE = "IceCube";
@@ -38,5 +39,10 @@ public static class Names
     public static readonly string BUBBLERISE = "BubbleRise";
     public static readonly string BUBBLEDIE = "BubbleDie";
     public static readonly string WHALESONG = "WhaleSong";
+    public static readonly string FISHESKIKONGI = "FishesKikongi";
+    public static readonly string DOOROFPERCEPTION = "DoorOfPerception";
+    public static readonly string PLAYER = "Player";
+    public static readonly string FISHKIKONGI = "FishKikongi";
 
 }
+;
