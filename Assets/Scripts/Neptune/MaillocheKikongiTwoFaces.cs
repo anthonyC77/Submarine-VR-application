@@ -18,7 +18,11 @@ public class MaillocheKikongiTwoFaces : MonoBehaviour
     private void Awake()
     {
         door = GameObject.FindGameObjectWithTag(Names.DOOROFPERCEPTION);
-        door.SetActive(false);
+        if (door != null)
+        {
+            door.SetActive(false);
+        }
+        
         Notes = GameObject.FindGameObjectsWithTag(Names.NOTES).ToList();
         //recorder = new Recorder();
     }

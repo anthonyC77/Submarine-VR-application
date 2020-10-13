@@ -109,7 +109,7 @@ public class Planet : MonoBehaviour
         
         if (grab.allowOffhandGrab)
         {
-            grab.allowOffhandGrab = false;
+            //grab.allowOffhandGrab = false;
             grab.enabled = false;
             grab.M_GrabPoints = null;
             this.GetComponent<Rigidbody>().useGravity = false;

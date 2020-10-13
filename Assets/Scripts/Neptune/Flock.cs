@@ -29,7 +29,7 @@ public class Flock : MonoBehaviour
         if (Turning)
         {
             Vector3 direction = MyManager.transform.position - transform.position; // center of the cube
-            transform.rotation = transform.rotation = Rotation(direction);
+            transform.rotation = Rotation(direction);
         }
         else
         {

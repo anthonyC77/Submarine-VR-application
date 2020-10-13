@@ -39,10 +39,19 @@ public static class Names
     public static readonly string BUBBLERISE = "BubbleRise";
     public static readonly string BUBBLEDIE = "BubbleDie";
     public static readonly string WHALESONG = "WhaleSong";
+    public static readonly string WHALEPOSITION = "WhalePosition";
     public static readonly string FISHESKIKONGI = "FishesKikongi";
     public static readonly string DOOROFPERCEPTION = "DoorOfPerception";
     public static readonly string PLAYER = "Player";
     public static readonly string FISHKIKONGI = "FishKikongi";
-
+    public static readonly string DOLPHINPLAYZONE = "DolphinPlayZone";
+    public static readonly string TRAUMA = "Trauma";
+    public static readonly string GARBAGE = "Garbage";
+    public static readonly string TRASHCAN = "TrashCan";
+    public static readonly string ANIMAL = "Animal";
+    public static readonly string HAND = "Hand";
+    public static readonly string HANDLEFT = "HandLeft";
+    public static readonly string HANDRIGHT = "HandRight";
+    public static readonly string SEABED = "SeaBed";
 }
 ;

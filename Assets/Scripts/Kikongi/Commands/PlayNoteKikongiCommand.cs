@@ -22,6 +22,13 @@ public class PlayNoteKikongiCommand : ICommand, ISerializable
     private float velocityClipSplit = 10f;
     private Collision CollisionNote;
 
+    public PlayNoteKikongiCommand(AudioSource surfaceKikongi)
+    {
+        SurfaceKikongi = surfaceKikongi;
+        NoteName = surfaceKikongi.name;
+        HitVol = 1;
+    }
+
     public PlayNoteKikongiCommand(AudioSource surfaceKikongi, Collision collision)
     {
         SurfaceKikongi = surfaceKikongi;

@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Oculus/SampleFramework/Usage/CustomHands.unity
     guid: a4f984fcee593d2418cc61f4a993d46d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Neptune/FractalJourney.unity
     guid: 00b376aa1247c6a48a61eeb8a7de0fc8
   - enabled: 0

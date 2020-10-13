@@ -35,6 +35,17 @@ TagManager:
   - KikongiMesh
   - DoorOfPerception
   - lol
+  - DolphinPlayZone
+  - WhalePosition
+  - Trauma
+  - Garbage
+  - TrashCan
+  - Animal
+  - CatchGarbage
+  - Hand
+  - HandLeft
+  - HandRight
+  - SeaBed
   layers:
   - Default
   - TransparentFX

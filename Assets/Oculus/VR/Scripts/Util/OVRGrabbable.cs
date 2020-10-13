@@ -55,80 +55,79 @@ public class OVRGrabbable : MonoBehaviour
     public bool allowOffhandGrab
     {
         get { return m_allowOffhandGrab; }
-        set { m_allowOffhandGrab = value; }     // Add this line to allow write-access to attribute
     }
 
-	/// <summary>
-	/// If true, the object is currently grabbed.
-	/// </summary>
+    /// <summary>
+    /// If true, the object is currently grabbed.
+    /// </summary>
     public bool isGrabbed
     {
         get { return m_grabbedBy != null; }
     }
 
-	/// <summary>
-	/// If true, the object's position will snap to match snapOffset when grabbed.
-	/// </summary>
+    /// <summary>
+    /// If true, the object's position will snap to match snapOffset when grabbed.
+    /// </summary>
     public bool snapPosition
     {
         get { return m_snapPosition; }
     }
 
-	/// <summary>
-	/// If true, the object's orientation will snap to match snapOffset when grabbed.
-	/// </summary>
+    /// <summary>
+    /// If true, the object's orientation will snap to match snapOffset when grabbed.
+    /// </summary>
     public bool snapOrientation
     {
         get { return m_snapOrientation; }
     }
 
-	/// <summary>
-	/// An offset relative to the OVRGrabber where this object can snap when grabbed.
-	/// </summary>
+    /// <summary>
+    /// An offset relative to the OVRGrabber where this object can snap when grabbed.
+    /// </summary>
     public Transform snapOffset
     {
         get { return m_snapOffset; }
     }
 
-	/// <summary>
-	/// Returns the OVRGrabber currently grabbing this object.
-	/// </summary>
+    /// <summary>
+    /// Returns the OVRGrabber currently grabbing this object.
+    /// </summary>
     public OVRGrabber grabbedBy
     {
         get { return m_grabbedBy; }
     }
 
-	/// <summary>
-	/// The transform at which this object was grabbed.
-	/// </summary>
+    /// <summary>
+    /// The transform at which this object was grabbed.
+    /// </summary>
     public Transform grabbedTransform
     {
         get { return m_grabbedCollider.transform; }
     }
 
-	/// <summary>
-	/// The Rigidbody of the collider that was used to grab this object.
-	/// </summary>
+    /// <summary>
+    /// The Rigidbody of the collider that was used to grab this object.
+    /// </summary>
     public Rigidbody grabbedRigidbody
     {
         get
         {
-            return m_grabbedCollider.attachedRigidbody;            
+            return m_grabbedCollider.attachedRigidbody;
         }
     }
 
-	/// <summary>
-	/// The contact point(s) where the object was grabbed.
-	/// </summary>
+    /// <summary>
+    /// The contact point(s) where the object was grabbed.
+    /// </summary>
     public Collider[] grabPoints
     {
         get { return m_grabPoints; }
     }
 
-	/// <summary>
-	/// Notifies the object that it has been grabbed.
-	/// </summary>
-	virtual public void GrabBegin(OVRGrabber hand, Collider grabPoint)
+    /// <summary>
+    /// Notifies the object that it has been grabbed.
+    /// </summary>
+    virtual public void GrabBegin(OVRGrabber hand, Collider grabPoint)
     {
         Rigidbody rb = gameObject.GetComponent<Rigidbody>();
         rb.constraints = RigidbodyConstraints.None;
@@ -137,10 +136,10 @@ public class OVRGrabbable : MonoBehaviour
         gameObject.GetComponent<Rigidbody>().isKinematic = true;
     }
 
-	/// <summary>
-	/// Notifies the object that it has been released.
-	/// </summary>
-	virtual public void GrabEnd(Vector3 linearVelocity, Vector3 angularVelocity)
+    /// <summary>
+    /// Notifies the object that it has been released.
+    /// </summary>
+    virtual public void GrabEnd(Vector3 linearVelocity, Vector3 angularVelocity)
     {
         Rigidbody rb = gameObject.GetComponent<Rigidbody>();
         rb.constraints = RigidbodyConstraints.None;
@@ -160,7 +159,7 @@ public class OVRGrabbable : MonoBehaviour
             Collider collider = this.GetComponent<Collider>();
             if (collider == null)
             {
-				throw new ArgumentException("Grabbables cannot have zero grab points and no collider -- please add a grab point or collider.");
+                throw new ArgumentException("Grabbables cannot have zero grab points and no collider -- please add a grab point or collider.");
             }
 
             // Create a default grab point

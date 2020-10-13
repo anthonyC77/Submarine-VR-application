@@ -17,7 +17,7 @@ public class ColliderNote : ColliderActions
         : base(listColliders, colliderName)
     {
         Sounds = sounds;
-        Note = GetColliderByName();
+        Note = GetColliderByName(colliderName);
         Sun = sun;
         CollisionNote = collision;
     }
@@ -29,6 +29,24 @@ public class ColliderNote : ColliderActions
         Note = GetColliderByName();
         CollisionNote = collision;
     }
+
+    public ColliderNote(AudioSource[] sounds, List<GameObject> listColliders, string colliderName)
+        : base(listColliders, colliderName)
+    {
+        Sounds = sounds;
+        Note = GetColliderByName();
+    }
+
+    public void PlayWithoutCollision()
+    {
+        var instanceCommandManager = CommandManager.Instance;
+        PlayingSound = GetSoundToPlay();
+        var note = Helper.GetNoteCalled(Note.name);
+        var playCommand = new PlayNoteKikongiCommand(PlayingSound);
+        playCommand.Execute();
+        instanceCommandManager.AddCommand(playCommand);
+    }
+
 
     public void Play()
     {

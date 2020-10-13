@@ -114,4 +114,24 @@ public class Helper
 
         return ePlanet.NONE;
     }
+
+    private static bool isSwimmingRight;
+    private static bool isSwimmingLeft;
+
+    public static bool IsSwimmingRight(bool right)
+    {
+        isSwimmingRight = right;
+        return IsWimming();
+    }
+
+    public static bool IsSwimmingLeft(bool left)
+    {
+        isSwimmingLeft = left;
+        return IsWimming();
+    }
+
+    public static bool IsWimming()
+    {
+        return isSwimmingRight && isSwimmingLeft;
+    }
 }

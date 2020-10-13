@@ -41,10 +41,16 @@ public class FlockManager : MonoBehaviour
                 FishPrefab.name = Name + kikongiFish;
                 kikongiFish++;
             }
-            //FishPrefab.tag = Name + i;
         }
 
         GoalPos = this.transform.position;
+    }
+
+    public void AddFish()
+    {
+        Vector3 pos = GetRandomPos();
+        var fish = (GameObject)Instantiate(FishPrefab, pos, Quaternion.identity);
+        fish.GetComponent<Flock>().MyManager = this;
     }
 
     private float GetRandom(float pos)
