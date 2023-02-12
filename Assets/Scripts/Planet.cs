@@ -15,7 +15,7 @@ public class Planet : MonoBehaviour
     bool WallIsTransparent = false;
     Vector3 InitPosPlanet;
     public int RotSpeed = 33;
-    bool RotationMode = false;
+    public bool RotationMode = false;
     public int Speed = 10;
 
     private void Awake()
@@ -80,9 +80,9 @@ public class Planet : MonoBehaviour
         //    SetPosPlanetAfterWall();
         //}
 
-        if (other.tag.Equals(Names.JOUEUR))
+        if (other.tag.Equals(Names.HEART))
         {
-            SetPosPlanetAroundTheSun();
+            SetPosPlanetAroundTheSun2();
         }
     }
 
@@ -115,11 +115,21 @@ public class Planet : MonoBehaviour
             this.GetComponent<Rigidbody>().useGravity = false;
             this.GetComponent<Rigidbody>().isKinematic = true;
             ePlanet planet = Helper.GetEnumValueByName<ePlanet>(this.name);
-            PlanetPosition planetPosition = new PlanetPosition(planet, ePositionType.AROUNDSUN);
+            PlanetPosition planetPosition = new PlanetPosition(planet, ePositionType.AROUNDSUN, Sun.transform.position.y);
             this.transform.position = planetPosition.Position;
             RotationMode = true;
         }   
     }
 
-    
+    private void SetPosPlanetAroundTheSun2()
+    {
+        ePlanet planet = Helper.GetEnumValueByName<ePlanet>(this.name);
+        PlanetPosition planetPosition = new PlanetPosition(planet, ePositionType.AROUNDSUN, Sun.transform.position.y);
+        var planetCloned =  Instantiate(this);
+        planetCloned.RotationMode = true;
+        planetCloned.transform.position = planetPosition.Position;
+        this.gameObject.SetActive(false);
+    }
+
+
 }

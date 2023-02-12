@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class Mailloche : MonoBehaviour
 {
+    public GameObject PlayerHeart;
     List<GameObject> Walls = new List<GameObject>();
     List<GameObject> Notes = new List<GameObject>();
     List<GameObject> Planets = new List<GameObject>();
@@ -84,9 +85,8 @@ public class Mailloche : MonoBehaviour
     {
         RiseSun();
         StartStopEmissionPlanetBySound();
-
-        
     }
+
     float sec = 1;
     float min = 1;
     IEnumerator time()
@@ -150,11 +150,14 @@ public class Mailloche : MonoBehaviour
         {
             if (sunTransform.position.y < 1.5f)
             {
-                sunTransform.Translate(new Vector3(0, Time.deltaTime * 0.8f, 0));
+                sunTransform.Translate(new Vector3(0, Time.deltaTime * 0.8f, 0));                
             }
             else
                 Indications.SetActive(true);
         }
+
+        if (SunRising && sunTransform.position.y > 1.4f)
+            PlayerHeart.SetActive(true);
     }
 
     private void PlayHeadPhone(string name)
@@ -172,6 +175,7 @@ public class Mailloche : MonoBehaviour
         if (Helper.IsNoteCalled(colliderName))
         {
             Debug.Log("Called sound on " + colliderName);
+            OpenWall(colliderName);
             //ActionsWithWalls(colliderName);
             ActionsWithKikongiSounds(colliderName, collision);
             ActionOnPlanets(colliderName);
@@ -179,6 +183,20 @@ public class Mailloche : MonoBehaviour
         }
 
         OnTriggerEnterPersonal(collision.collider);
+    }
+
+    private void OpenWall(string name)
+    {
+        var wall = Walls.Where(w => w.name == name).FirstOrDefault();
+        if (wall != null)
+        {
+            var boxColiderWall = wall.GetComponent<BoxCollider>();
+            if (boxColiderWall != null)
+            {
+                boxColiderWall.enabled = false;
+                Debug.Log("Box Collider off on " + name);
+            }
+        }        
     }
 
     private void OnTriggerEnterPersonal(Collider other)
@@ -251,7 +269,7 @@ public class Mailloche : MonoBehaviour
         planet.SetMaterial();
         AddPlanetsColored(planet.Planet.name);
         planet.Planet.transform.localScale.Scale(new Vector3(0.5f, 0.5f, 0.5f));
-        ActionOnPlayer(planet.Planet.name);
+        //ActionOnPlayer(planet.Planet.name);
     }
 
     private void ActionOnPlayer(string planetName )

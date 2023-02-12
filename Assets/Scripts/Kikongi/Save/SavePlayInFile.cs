@@ -11,30 +11,6 @@ using UnityEngine;
 
 public static class SavePlayInFile
 {
-    public static void WriteToBinaryFile<T>(string filePath, T objectToWrite, bool append = false)
-    {
-        using (Stream stream = File.Open(filePath, append ? FileMode.Append : FileMode.Create))
-        {
-            var binaryFormatter = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
-            binaryFormatter.Serialize(stream, objectToWrite);
-        }
-    }
-
-    /// <summary>
-    /// Reads an object instance from a binary file.
-    /// </summary>
-    /// <typeparam name="T">The type of object to read from the binary file.</typeparam>
-    /// <param name="filePath">The file path to read the object instance from.</param>
-    /// <returns>Returns a new instance of the object read from the binary file.</returns>
-    public static T ReadFromBinaryFile<T>(string filePath)
-    {
-        using (Stream stream = File.Open(filePath, FileMode.Open))
-        {
-            var binaryFormatter = new System.Runtime.Serialization.Formatters.Binary.BinaryFormatter();
-            return (T)binaryFormatter.Deserialize(stream);
-        }
-    }
-
     private static DirectoryInfo GetDirInfo()
     {
         var path = Application.persistentDataPath;
@@ -75,6 +51,12 @@ public static class SavePlayInFile
         return Application.persistentDataPath + $"/MusicPlayed{id}.dat";
     }
 
+    public static void SaveTriggerSound()
+    {
+        
+    }
+
+    // TODO regarder projet Techem pour serialiser xml et ouvrir une seule fois la connexion au fichier
     public static int SaveinXml(List<ICommand> datas)
     {
         int id = GetIdFile();

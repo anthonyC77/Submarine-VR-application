@@ -33,7 +33,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_2;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_2;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_POST_PROCESSING_STACK_V2;VRTK_DEFINE_OCULUS_UTILITIES_1_12_0_OR_NEWER;VRTK_DEFINE_SDK_OCULUS;VRTK_VERSION_3_3_0;VRTK_VERSION_3_3_0_OR_NEWER;VRTK_VERSION_3_1_0_OR_NEWER;VRTK_VERSION_3_2_0_OR_NEWER;VRTK_VERSION_3_2_1_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -43,7 +43,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_2019_4_2;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>TRACE;UNITY_2019_4_2;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_POST_PROCESSING_STACK_V2;VRTK_DEFINE_OCULUS_UTILITIES_1_12_0_OR_NEWER;VRTK_DEFINE_SDK_OCULUS;VRTK_VERSION_3_3_0;VRTK_VERSION_3_3_0_OR_NEWER;VRTK_VERSION_3_1_0_OR_NEWER;VRTK_VERSION_3_2_0_OR_NEWER;VRTK_VERSION_3_2_1_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
@@ -586,17 +586,65 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="TestOculus withHands.Plugins.csproj">
+      <Project>{101C178E-DAB3-EA80-2B41-C3CDF726CF3D}</Project>
+      <Name>TestOculus withHands.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.csproj">
+      <Project>{61EF8CBA-9111-4BC4-D310-70E79B91C531}</Project>
+      <Name>Unity.XR.Management</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{7C87BE25-0A2E-FC58-1E14-37330F289AA3}</Project>
       <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Subsystem.Registration.csproj">
+      <Project>{23965A9C-513A-63AA-8865-1A71BA61BCA2}</Project>
+      <Name>Unity.Subsystem.Registration</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProGrids.csproj">
+      <Project>{23450A3B-DD10-D6DE-896F-2D4F8941F4B4}</Project>
+      <Name>Unity.ProGrids</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{F37EB8D3-595B-2A8E-9D57-98253E4F534B}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.csproj">
+      <Project>{6E2AEC81-8B40-973A-8381-AA153A2DFB86}</Project>
+      <Name>Unity.ProBuilder</Name>
+    </ProjectReference>
+    <ProjectReference Include="Crest.Examples.csproj">
+      <Project>{64D1E425-EB51-27D1-6B23-2BE89BBA05BA}</Project>
+      <Name>Crest.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
+      <Project>{FAF27AC2-6327-295A-B809-B01BAAC648CC}</Project>
+      <Name>Unity.ProBuilder.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
+      <Project>{C5787DEC-881B-2C00-2475-6C021075DC12}</Project>
+      <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Examples.Editor.csproj">
+      <Project>{4B5CC0F6-B7A6-8E38-A479-1C070859675A}</Project>
+      <Name>Unity.ProBuilder.Examples.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProGrids.Editor.csproj">
+      <Project>{E913EAA8-A9B5-A283-DA3E-82F1B9EE0798}</Project>
+      <Name>Unity.ProGrids.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Oculus.csproj">
+      <Project>{16572057-49D8-A9C9-7AE0-70F8EF511F1E}</Project>
+      <Name>Unity.XR.Oculus</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{3A848AB7-9891-EDDA-D555-BF184C2F81F4}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Oculus.Editor.csproj">
+      <Project>{A3416236-52BA-184F-197B-602FD9A1D2EE}</Project>
+      <Name>Unity.XR.Oculus.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{6940CB9D-2F64-7CD4-BA0F-5610D5AB47B0}</Project>
@@ -605,6 +653,22 @@
     <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
       <Project>{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}</Project>
       <Name>Unity.CollabProxy.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
+      <Project>{CBEC4DCB-1B2B-E03B-0387-393C59967E8B}</Project>
+      <Name>Unity.Postprocessing.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
+      <Project>{8E7C73A3-7719-6FE2-0D0D-A83EDAB504C7}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Crest.csproj">
+      <Project>{20205669-0046-1FD1-747E-F868CF70B409}</Project>
+      <Name>Crest</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
+      <Project>{1DEBA887-0FDC-75F1-A28F-2738391F56E7}</Project>
+      <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{C540080A-BED7-978E-DDFC-EE09E5DBB722}</Project>
@@ -618,53 +682,60 @@
       <Project>{8DEDC9B6-1468-C3FB-4525-23AE84A2B54C}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Examples.csproj">
+      <Project>{AA254127-81F3-6141-6BA2-E662B04242AD}</Project>
+      <Name>Unity.ProBuilder.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Crest.Helpers.Editor.csproj">
+      <Project>{7765B985-5A19-1B73-E287-71CFF31C0D55}</Project>
+      <Name>Crest.Helpers.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
+      <Project>{49FCAFB7-7D0A-B3F6-2171-B4248A94EC21}</Project>
+      <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
       <Project>{ABAA9E89-904E-F248-9658-14F9444302C5}</Project>
       <Name>Oculus.VR</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{07A21C90-D344-AE1A-8456-9910C203B41A}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.csproj">
-      <Project>{61EF8CBA-9111-4BC4-D310-70E79B91C531}</Project>
-      <Name>Unity.XR.Management</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{23965A9C-513A-63AA-8865-1A71BA61BCA2}</Project>
-      <Name>Unity.Subsystem.Registration</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{8E7C73A3-7719-6FE2-0D0D-A83EDAB504C7}</Project>
-      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{1DEBA887-0FDC-75F1-A28F-2738391F56E7}</Project>
-      <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
       <Project>{779568FA-8B74-9FC0-8E1A-6EBB501CEFE6}</Project>
       <Name>UnityEditor.SpatialTracking</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Samples.csproj">
+      <Project>{FF7C3709-9995-C4AD-9EA7-33E8DF997018}</Project>
+      <Name>Unity.XR.Management.Samples</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
       <Project>{EDE48CFA-E9C6-66CB-F43E-070EAA2E76B0}</Project>
       <Name>UnityEngine.SpatialTracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
+      <Project>{E8F6AEC7-C558-7A8C-1B77-5EF90B9AD9FD}</Project>
+      <Name>Unity.ProBuilder.AddOns.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
+      <Project>{01DE334C-9A49-7BD4-35D9-4E22FDE01327}</Project>
+      <Name>Unity.XR.Management.Samples.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{07A21C90-D344-AE1A-8456-9910C203B41A}</Project>
+      <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
       <Project>{E39D021A-24A3-CC45-6B3B-9304A0479D9A}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Oculus.csproj">
-      <Project>{16572057-49D8-A9C9-7AE0-70F8EF511F1E}</Project>
-      <Name>Unity.XR.Oculus</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Oculus.Editor.csproj">
-      <Project>{A3416236-52BA-184F-197B-602FD9A1D2EE}</Project>
-      <Name>Unity.XR.Oculus.Editor</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Mailloche.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+    <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -993,9 +1064,647 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
-    <Compile Include="Assets\OculusGrab.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scenes\Neptune\TestMovement.cs" />
+    <Compile Include="Assets\Scripts\BallMovements.cs" />
+    <Compile Include="Assets\Scripts\CatchPlanet.cs" />
+    <Compile Include="Assets\Scripts\ColliderActions.cs" />
+    <Compile Include="Assets\Scripts\ColliderNote.cs" />
+    <Compile Include="Assets\Scripts\ColliderPlanet.cs" />
+    <Compile Include="Assets\Scripts\ColliderWall.cs" />
+    <Compile Include="Assets\Scripts\EnterPlanetScene.cs" />
+    <Compile Include="Assets\Scripts\Floor.cs" />
+    <Compile Include="Assets\Scripts\HeadPhones\GrabHeadPhone.cs" />
+    <Compile Include="Assets\Scripts\HeadPhones\HeadPhoneRecorder.cs" />
+    <Compile Include="Assets\Scripts\HeadPhones\Test.cs" />
+    <Compile Include="Assets\Scripts\Helper.cs" />
+    <Compile Include="Assets\Scripts\Kikongi\Commands\PlayNoteKikongiCommand.cs" />
+    <Compile Include="Assets\Scripts\Kikongi\GrabMailloche.cs" />
+    <Compile Include="Assets\Scripts\Kikongi\Interface\ICommand.cs" />
+    <Compile Include="Assets\Scripts\Kikongi\MaillocheMovement.cs" />
+    <Compile Include="Assets\Scripts\Kikongi\Managers\CommandManager.cs" />
+    <Compile Include="Assets\Scripts\Kikongi\Recorder.cs" />
+    <Compile Include="Assets\Scripts\Kikongi\Save\SavePlayInFile.cs" />
+    <Compile Include="Assets\Scripts\Mailloche.cs" />
+    <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Menu\PhysicPointer.cs" />
+    <Compile Include="Assets\Scripts\Menu\VRInput.cs" />
+    <Compile Include="Assets\Scripts\MovementBallByPlayer.cs" />
+    <Compile Include="Assets\Scripts\Neptune\AddRandomPlants.cs" />
+    <Compile Include="Assets\Scripts\Neptune\CatchGarbages.cs" />
+    <Compile Include="Assets\Scripts\Neptune\CommandEMDR.cs" />
+    <Compile Include="Assets\Scripts\Neptune\DynamiteExplodes.cs" />
+    <Compile Include="Assets\Scripts\Neptune\EmitBubbleSound.cs" />
+    <Compile Include="Assets\Scripts\Neptune\EnterTheDoor.cs" />
+    <Compile Include="Assets\Scripts\Neptune\Flock.cs" />
+    <Compile Include="Assets\Scripts\Neptune\FlockManager.cs" />
+    <Compile Include="Assets\Scripts\Neptune\FractalJourney\Explorer.cs" />
+    <Compile Include="Assets\Scripts\Neptune\FractalJourney\Navigation.cs" />
+    <Compile Include="Assets\Scripts\Neptune\FractalJourney\Smoother.cs" />
+    <Compile Include="Assets\Scripts\Neptune\KikongiTwoFaces.cs" />
+    <Compile Include="Assets\Scripts\Neptune\MaillocheKikongiTwoFaces.cs" />
+    <Compile Include="Assets\Scripts\Neptune\PlayWithDolphin.cs" />
+    <Compile Include="Assets\Scripts\Neptune\Player\ChangeCamera.cs" />
+    <Compile Include="Assets\Scripts\Neptune\Rope.cs" />
+    <Compile Include="Assets\Scripts\Neptune\SandPillarPosition.cs" />
+    <Compile Include="Assets\Scripts\Neptune\SpawnCorals.cs" />
+    <Compile Include="Assets\Scripts\Neptune\Swim.cs" />
+    <Compile Include="Assets\Scripts\Neptune\eNotes2Faces.cs" />
+    <Compile Include="Assets\Scripts\PhoenixMovements.cs" />
+    <Compile Include="Assets\Scripts\Planet.cs" />
+    <Compile Include="Assets\Scripts\PlanetPosition.cs" />
+    <Compile Include="Assets\Scripts\Planets.cs" />
+    <Compile Include="Assets\Scripts\Sounds\MyAudioManager.cs" />
+    <Compile Include="Assets\Scripts\Sounds\MySound.cs" />
+    <Compile Include="Assets\Scripts\SphereChangeColor.cs" />
+    <Compile Include="Assets\Scripts\Sun\SunAttraction.cs" />
+    <Compile Include="Assets\Scripts\Sword\SwordMovements.cs" />
+    <Compile Include="Assets\Scripts\TagNames.cs" />
+    <Compile Include="Assets\Scripts\eNote.cs" />
+    <Compile Include="Assets\Scripts\ePlanet.cs" />
+    <Compile Include="Assets\Scripts\ePositionType.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[001 - Interactions] ControllerEvents\Scripts\VRTKExample_ControllerEventsDelegateListeners.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[002 - Pointers] StraightPointer\Scripts\VRTKExample_PointerObjectHighlighterActivator.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[003 - Pointers] BezierPointer\Scripts\VRTKExample_BezierPointerChanger.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[003 - Pointers] BezierPointer\Scripts\VRTKExample_BezierPointerCustomStyles.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[003 - Pointers] BezierPointer\Scripts\VRTKExample_BezierPointerDefaults.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[003 - Pointers] BezierPointer\Scripts\VRTKExample_BezierPointerLineRenderer.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[005 - Interactions] InteractableObjects\Scripts\ControllableReactor.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[005 - Interactions] InteractableObjects\Scripts\SnapDropZoneToggle.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[005 - Interactions] InteractableObjects\Scripts\ToggleCustomHands.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[005 - Interactions] InteractableObjects\Scripts\TogglePointerInteraction.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[006 - Locomotion] MovementTypes\Scripts\ClimbableHandLift.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[006 - Locomotion] MovementTypes\Scripts\ElevatorControl.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[006 - Locomotion] MovementTypes\Scripts\IgnoreTeleportDummy.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[006 - Locomotion] MovementTypes\Scripts\OptionsMenu.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[006 - Locomotion] MovementTypes\Scripts\ToggleGameObject.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[006 - Locomotion] MovementTypes\Scripts\ToggleGameObjectSlider.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[007 - Interactions] InteractionHelpers\Scripts\PanelMenuSaucerGrid.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[007 - Interactions] InteractionHelpers\Scripts\PanelMenuSphereSlider.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Prefabs\AnimatedBezierPointer\Scripts\BeamRotator.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Prefabs\FireExtinguisher\Scripts\FireExtinguisher_Base.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Prefabs\FireExtinguisher\Scripts\FireExtinguisher_Sprayer.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Prefabs\Guns\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Prefabs\Lamp\Scripts\InteractableLamp.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Prefabs\LightSaber\Scripts\ScaleOnUse.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Prefabs\Whirlygig\Scripts\InteractableWhirlyGig.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Scripts\VRTKExample_FixSetup.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Scripts\VRTKExample_ObjectListToggle.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Scripts\VRTKExample_OptionTile.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Scripts\VRTKExample_OptionTilePointerSelector.cs" />
+    <Compile Include="Assets\VRTK\Examples\ExampleResources\SharedResources\Scripts\VRTKExample_SceneSwitcher.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Archery\Arrow.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Archery\ArrowNotch.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Archery\ArrowSpawner.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Archery\BowAim.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Archery\BowAnimation.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Archery\BowHandle.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Archery\Follow.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\AutoRotation.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Breakable_Cube.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\ButtonReactor.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\ControlReactor.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Controller_Hand.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Controller_Menu.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\ControlsMenu.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\ExcludeTeleport.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\FireExtinguisher_Base.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\FireExtinguisher_Sprayer.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Gun.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\HandLift.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Lamp.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\LightSaber.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Menu_Color_Changer.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Menu_Container_Object_Colors.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Menu_Object_Spawner.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\ModelVillage_TeleportLocation.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\MoveBlock.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Openable_Door.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\PanelMenu\PanelMenuDemoFlyingSaucer.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\PanelMenu\PanelMenuDemoSphere.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\PanelMenu\PanelMenuUIGrid.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\PanelMenu\PanelMenuUISlider.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\PusherStickyToggle.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\RC_Car.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\RC_Car_Controller.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\RealGun.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\RealGun_SafetySwitch.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\RealGun_Slide.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Remote_Beam.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Remote_Beam_Controller.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\RendererOffOnDash.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\SceneChanger.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\SnapDropZoneGroup_Switcher.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Sphere_Spawner.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Sword.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Tests\VRTK_BaseTest.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Tests\VRTK_ControllerReference_Setup.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\UI_Interactions.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\UI_Keyboard.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\UseRotate.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\VRTK_ControllerAppearance_Example.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\VRTK_ControllerEvents_ListenerExample.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\VRTK_ControllerInteract_ListenerExample.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\VRTK_ControllerPointerEvents_ListenerExample.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\VRTK_ControllerUIPointerEvents_ListenerExample.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\VRTK_RoomExtender_ControllerExample.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Whirlygig.cs" />
+    <Compile Include="Assets\VRTK\LegacyExampleFiles\ExampleResources\Scripts\Zipline.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\AvatarHands\VRTK_AvatarHandController.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\ConsoleViewerCanvas\VRTK_ConsoleViewer.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\ControllerRigidbodyActivator\VRTK_ControllerRigidbodyActivator.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\ControllerTooltips\VRTK_ControllerTooltips.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\DesktopCamera\VRTK_DesktopCamera.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\DestinationPoint\VRTK_DestinationPoint.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\FramesPerSecondCanvas\VRTK_FramesPerSecondViewer.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\ObjectTooltip\VRTK_ObjectTooltip.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\PanelMenu\VRTK_PanelMenuController.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\PanelMenu\VRTK_PanelMenuItemController.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\PointerDirectionIndicator\VRTK_PointerDirectionIndicator.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\RadialMenu\RadialMenuButton\RadialButtonIcon.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\RadialMenu\RadialMenuButton\UICircle.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\RadialMenu\VRTK_IndependentRadialMenuController.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\RadialMenu\VRTK_RadialMenu.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\RadialMenu\VRTK_RadialMenuController.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\SDKSetupSwitcher\VRTK_SDKSetupSwitcher.cs" />
+    <Compile Include="Assets\VRTK\Prefabs\SnapDropZone\VRTK_SnapDropZone.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Base\SDK_Base.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Base\SDK_BaseBoundaries.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Base\SDK_BaseController.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Base\SDK_BaseHeadset.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Base\SDK_BaseSystem.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Base\SDK_DescriptionAttribute.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Base\SDK_ScriptingDefineSymbolPredicateAttribute.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Daydream\DaydreamReach.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Daydream\SDK_DaydreamBoundaries.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Daydream\SDK_DaydreamController.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Daydream\SDK_DaydreamDefines.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Daydream\SDK_DaydreamHeadset.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Daydream\SDK_DaydreamSystem.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Fallback\SDK_FallbackBoundaries.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Fallback\SDK_FallbackController.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Fallback\SDK_FallbackHeadset.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Fallback\SDK_FallbackSystem.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\HyperealVR\SDK_HyperealVRBoundaries.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\HyperealVR\SDK_HyperealVRController.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\HyperealVR\SDK_HyperealVRDefines.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\HyperealVR\SDK_HyperealVRHeadset.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\HyperealVR\SDK_HyperealVRSystem.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Oculus\SDK_OculusBoundaries.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Oculus\SDK_OculusController.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Oculus\SDK_OculusDefines.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Oculus\SDK_OculusHeadset.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Oculus\SDK_OculusSystem.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Simulator\SDK_ControllerSim.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Simulator\SDK_InputSimulator.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Simulator\SDK_SimBoundaries.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Simulator\SDK_SimController.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Simulator\SDK_SimHeadset.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Simulator\SDK_SimSystem.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\SteamVR\SDK_SteamVRBoundaries.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\SteamVR\SDK_SteamVRController.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\SteamVR\SDK_SteamVRDefines.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\SteamVR\SDK_SteamVRHeadset.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\SteamVR\SDK_SteamVRSystem.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Unity\SDK_UnityBoundaries.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Unity\SDK_UnityCameraRig.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Unity\SDK_UnityController.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Unity\SDK_UnityControllerTracker.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Unity\SDK_UnityHeadset.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Unity\SDK_UnityHeadsetTracker.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Unity\SDK_UnitySystem.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\VRTK_SDK_Bridge.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\WindowsMR\Resources\InteractionSourceExtensions.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\WindowsMR\Resources\WindowsApiChecker.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\WindowsMR\Resources\WindowsMR_Camera.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\WindowsMR\Resources\WindowsMR_ControllerManager.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\WindowsMR\Resources\WindowsMR_TrackedObject.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\WindowsMR\SDK_WindowsMRBoundaries.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\WindowsMR\SDK_WindowsMRController.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\WindowsMR\SDK_WindowsMRDefines.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\WindowsMR\SDK_WindowsMRHeadset.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\WindowsMR\SDK_WindowsMRSystem.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Ximmerse\SDK_XimmerseBoundaries.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Ximmerse\SDK_XimmerseController.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Ximmerse\SDK_XimmerseDefines.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
+    <Compile Include="Assets\VRTK\Source\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Controls\3D\Utilities\VRTK_ContentHandler.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Controls\3D\VRTK_Button.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Controls\3D\VRTK_Chest.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Controls\3D\VRTK_Control.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Controls\3D\VRTK_Door.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Controls\3D\VRTK_Drawer.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Controls\3D\VRTK_Knob.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Controls\3D\VRTK_Lever.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Controls\3D\VRTK_Slider.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Controls\3D\VRTK_SpringLever.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Controls\3D\VRTK_Wheel.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Highlighters\VRTK_BaseHighlighter.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Highlighters\VRTK_MaterialColorSwapHighlighter.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Highlighters\VRTK_MaterialPropertyBlockColorSwapHighlighter.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Highlighters\VRTK_OutlineObjectCopyHighlighter.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\Controllables\Artificial\VRTK_ArtificialPusher.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\Controllables\Artificial\VRTK_ArtificialRotator.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\Controllables\Artificial\VRTK_ArtificialSlider.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\Controllables\Physics\VRTK_BasePhysicsControllable.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\Controllables\Physics\VRTK_PhysicsPusher.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\Controllables\Physics\VRTK_PhysicsRotator.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\Controllables\Physics\VRTK_PhysicsSlider.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\Controllables\VRTK_BaseControllable.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\GrabAttachMechanics\VRTK_BaseGrabAttach.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\GrabAttachMechanics\VRTK_BaseJointGrabAttach.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\GrabAttachMechanics\VRTK_ChildOfControllerGrabAttach.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\GrabAttachMechanics\VRTK_ClimbableGrabAttach.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\GrabAttachMechanics\VRTK_ControlAnimationGrabAttach.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\GrabAttachMechanics\VRTK_CustomJointGrabAttach.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\GrabAttachMechanics\VRTK_FixedJointGrabAttach.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\GrabAttachMechanics\VRTK_MoveTransformGrabAttach.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\GrabAttachMechanics\VRTK_RotateTransformGrabAttach.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\GrabAttachMechanics\VRTK_RotatorTrackGrabAttach.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\GrabAttachMechanics\VRTK_SpringJointGrabAttach.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\GrabAttachMechanics\VRTK_TrackObjectGrabAttach.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\SecondaryControllerGrabActions\VRTK_AxisScaleGrabAction.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\SecondaryControllerGrabActions\VRTK_BaseGrabAction.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\SecondaryControllerGrabActions\VRTK_ControlDirectionGrabAction.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\SecondaryControllerGrabActions\VRTK_SwapControllerGrabAction.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\VRTK_IgnoreInteractTouchColliders.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\VRTK_InteractControllerAppearance.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\VRTK_InteractHaptics.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\VRTK_InteractObjectAppearance.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\VRTK_InteractObjectHighlighter.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\VRTK_InteractableListener.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\VRTK_InteractableObject.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactables\VRTK_ObjectTouchAutoInteract.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactors\VRTK_ControllerEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactors\VRTK_ControllerHighlighter.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactors\VRTK_ControllerTrackedCollider.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactors\VRTK_InteractGrab.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactors\VRTK_InteractNearTouch.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactors\VRTK_InteractTouch.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactors\VRTK_InteractUse.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\Interactors\VRTK_ObjectAutoGrab.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\VRTK_ControllerHaptics.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Interactions\VRTK_ObjectAppearance.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\Attributes\MinMaxRangeAttribute.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\Attributes\ObsoleteInspectorAttribute.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\DataTypes\Limits2D.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\DataTypes\Vector3State.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_CollisionTracker.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_ControllerReference.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_CurveGenerator.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_Defines.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_EventSystem.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_Logger.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_ObjectCache.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_PlayerObject.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_RoomExtender_PlayAreaGizmo.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_SDKControllerReady.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_ScreenFade.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_TrackedController.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_TrackedHeadset.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_TunnelEffect.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_UIGraphicRaycaster.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Internal\VRTK_VRInputModule.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\ObjectControlActions\VRTK_BaseObjectControlAction.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\ObjectControlActions\VRTK_RotateObjectControlAction.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\ObjectControlActions\VRTK_SlideObjectControlAction.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\ObjectControlActions\VRTK_SnapRotateObjectControlAction.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\ObjectControlActions\VRTK_WarpObjectControlAction.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_BasicTeleport.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_ButtonControl.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_DashTeleport.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_DragWorld.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_HeightAdjustTeleport.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_MoveInPlace.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_ObjectControl.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_PlayerClimb.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_RoomExtender.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_SlingshotJump.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_StepMultiplier.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_TeleportDisableOnControllerObscured.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_TeleportDisableOnHeadsetCollision.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_TouchpadControl.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Locomotion\VRTK_TunnelOverlay.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Pointers\PointerRenderers\VRTK_BasePointerRenderer.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Pointers\PointerRenderers\VRTK_BezierPointerRenderer.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Pointers\PointerRenderers\VRTK_StraightPointerRenderer.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Pointers\VRTK_DestinationMarker.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Pointers\VRTK_PlayAreaCursor.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Pointers\VRTK_Pointer.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Presence\VRTK_BodyPhysics.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Presence\VRTK_HeadsetCollision.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Presence\VRTK_HeadsetCollisionFade.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Presence\VRTK_HeadsetControllerAware.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Presence\VRTK_HeadsetFade.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Presence\VRTK_HipTracking.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Presence\VRTK_PositionRewind.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\UI\VRTK_UICanvas.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\UI\VRTK_UIDraggableItem.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\UI\VRTK_UIDropZone.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\UI\VRTK_UIPointer.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\ControllerModelSettings\VRTK_ControllerElementHighlighters.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\ControllerModelSettings\VRTK_ControllerModelElementPaths.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\ObjectFollow\VRTK_ObjectFollow.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\ObjectFollow\VRTK_RigidbodyFollow.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\ObjectFollow\VRTK_TransformFollow.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\SDK\VRTK_SDKInfo.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\SDK\VRTK_SDKManager.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\SDK\VRTK_SDKSetup.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_BaseControllable_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_BasicTeleport_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_BodyPhysics_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_Button_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_ControlAnimationGrabAttach_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_Control_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_ControllerEvents_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_ControllerRigidbodyActivator_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_ControllerTooltips_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_DashTeleport_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_DestinationMarker_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_DestinationPoint_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_HeadsetCollision_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_HeadsetControllerAware_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_HeadsetFade_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_InteractControllerAppearance_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_InteractGrab_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_InteractHaptics_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_InteractNearTouch_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_InteractObjectAppearance_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_InteractObjectHighlighter_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_InteractTouch_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_InteractUse_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_InteractableObject_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_MoveTransformGrabAttach_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_ObjectAutoGrab_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_ObjectControl_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_ObjectTooltip_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_PlayAreaCursor_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_PlayerClimb_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_PointerDirectionIndicator_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_Pointer_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_PositionRewind_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_RotateTransformGrabAttach_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_SDKManager_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_SDKSetup_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_SlingshotJump_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_SnapDropZone_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_UIDraggableItem_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_UIPointer_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\UnityEvents\VRTK_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_AdaptiveQuality.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_CustomRaycast.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_DeviceFinder.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_NavMeshData.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_PolicyList.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_SDKInputOverride.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_SDKObjectAlias.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_SDKObjectState.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_SDKTransformModify.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_SharedMethods.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_Simulator.cs" />
+    <Compile Include="Assets\VRTK\Source\Scripts\Utilities\VRTK_VelocityEstimator.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\Accordion\Accordion.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\Accordion\AccordionElement.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\Accordion\Tweening\FloatTween.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\Accordion\Tweening\ITweenValue.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\Accordion\Tweening\TweenRunner.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\BoxSlider.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorImage.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorLabel.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorPickerControl.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorPickerPresets.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorPickerTester.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorSampler.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorSlider.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorSliderImage.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\ColorValues.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\Events\ColorChangedEvent.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\Events\HSVChangedEvent.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\HSVUtil.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\HexColorField.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\SVBoxSlider.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ColorPicker\TiltWindow.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ComboBox\AutoCompleteComboBox.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ComboBox\ComboBox.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ComboBox\DropDownList.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ComboBox\DropDownListButton.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ComboBox\DropDownListItem.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\CooldownButton.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\InputFocus.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\MultiTouchScrollRect.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\RadialSlider.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\RangeSlider.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ReorderableList\ReorderableList.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ReorderableList\ReorderableListContent.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ReorderableList\ReorderableListDebug.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\ReorderableList\ReorderableListElement.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\RescalingPanels\RescaleDragPanel.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\RescalingPanels\RescalePanel.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\RescalingPanels\ResizePanel.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\Segment.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\SegmentedControl.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\SelectionBox\ExampleSelectable.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\SelectionBox\IBoxSelectable.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\SelectionBox\SelectionBox.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\Stepper.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\StepperSide.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\TextPic.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Controls\UI_Knob.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\BestFitOutline.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\CurlyUI\CUIBezierCurve.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\CurlyUI\CUIGraphic.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\CurlyUI\CUIImage.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\CurlyUI\CUIMisc.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\CurlyUI\CUIText.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\CurvedText.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\CylinderText.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\Gradient.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\Gradient2.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\LetterSpacing.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\MonoSpacing.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\NicerOutline.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\RaycastMask.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\ShaderEffects\UIAdditiveEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\ShaderEffects\UIImageCrop.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\ShaderEffects\UILinearDodgeEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\ShaderEffects\UIMultiplyEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\ShaderEffects\UIScreenEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\ShaderEffects\UISoftAdditiveEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\ShineEffect.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\ShineEffector.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\SoftMaskScript.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\UIFlippable.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Effects\UIParticleSystem.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\InputModules\AimerInputModule.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\InputModules\GamePadInputModule.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\2D Cards\CardExpanding2D.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\2D Cards\CardPopup2D.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\2D Cards\CardStack2D.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\3D Cards\CardExpanding3D.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\Superellipse Creation\MeshCreator.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\Superellipse Creation\SuperellipsePoints.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\CardUI\Superellipse Creation\Triangulator.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\ContentScrollSnapHorizontal.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\CurvedLayout.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Core\FancyCell.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Core\FancyScrollView.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\GridView\FancyCellGroup.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\GridView\FancyGridView.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\GridView\FancyGridViewCell.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\GridView\FancyGridViewContext.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\GridView\IFancyCellGroupContext.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\GridView\IFancyGridViewContext.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\ScrollRect\FancyScrollRect.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\ScrollRect\FancyScrollRectCell.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\ScrollRect\FancyScrollRectContext.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\ScrollRect\IFancyScrollRectContext.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\EasingCore.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\MovementDirection.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\MovementType.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\ScrollDirection.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\Scroller.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\FlowLayoutGroup.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\HorizontalScrollSnap.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\IScrollSnap.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\RadialLayout.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\ScrollPositionController.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\ScrollSnap.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\ScrollSnapBase.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\ScrollSnapScrollbarHelper.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\TableLayoutGroup.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\TileSizeFitter.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\UIVerticalScroller.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Layout\VerticalScrollSnap.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\MenuSystem\Menu.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\MenuSystem\MenuManager.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\MenuSystem\SimpleMenu.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Primitives\DiamondGraph.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Primitives\UICircle.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Primitives\UICornerCut.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Primitives\UIGridRenderer.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Primitives\UILineRenderer.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Primitives\UILineRendererList.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Primitives\UILineTextureRenderer.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Primitives\UIPolygon.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Primitives\UIPrimitiveBase.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\TabNavigationHelper.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\ToolTips\BoundTooltip\BoundTooltipItem.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\ToolTips\BoundTooltip\BoundTooltipTrigger.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\ToolTips\HoverTooltip.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\ToolTips\ToolTip.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\ToolTips\TooltipTrigger.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\UIWindowBase.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\BezierPath.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\CLZF2.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\CableCurve.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\Circle.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\DragCorrector.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\ExtensionsToggle.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\ExtensionsToggleGroup.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\ExtentionMethods.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\InputFieldEnterSubmit.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\NonDrawingGraphic.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\PPIViewer.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\PaginationManager.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\ReturnKeyTriggersButton.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\ScrollConflictManager.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\ScrollRectEx.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\ScrollRectExtensions.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\ScrollRectLinker.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\ScrollRectTweener.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\SelectableScaler.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\SetPropertyUtility.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\TestCompression.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\UIExtensionMethods.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\UIHighlightable.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\UILineConnector.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\UIScrollToSelection.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\UIScrollToSelectionXY.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\UISelectableExtension.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\UI_InfiniteScroll.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\UI_ScrollRectOcclusion.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\UI_TweenScale.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\Utilities\switchToRectTransform.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\VR Extensions\VRCursor.cs" />
+    <Compile Include="Assets\unity-ui-extensions\Runtime\Scripts\VR Extensions\VRInputModule.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Crest\Crest-Examples\BoatDev\Models\OldBoat\SOURCE.txt" />
+    <None Include="Assets\Crest\Crest-Examples\BoatDev\Shaders\ShapeGeomShaderTest.shader" />
+    <None Include="Assets\Crest\Crest-Examples\Crest.Examples.asmdef" />
+    <None Include="Assets\Crest\Crest-Examples\Whirlpool\Shaders\Resources\AnimWavesWhirlpool.shader" />
+    <None Include="Assets\Crest\Crest-Examples\Whirlpool\Shaders\Resources\FlowWhirlpool.shader" />
+    <None Include="Assets\Crest\Crest\Scripts\Crest.asmdef" />
+    <None Include="Assets\Crest\Crest\Scripts\Editor\Crest.Editor.asmdef" />
+    <None Include="Assets\Crest\Crest\Shaders\FullScreenTriangle.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\GPUNoise\GPUNoise.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\GPUNoise\SOURCE.txt" />
+    <None Include="Assets\Crest\Crest\Shaders\Misc\OceanProxy.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\Ocean.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanConstants.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanEmission.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanFoam.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanGlobals.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanHelpers.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanHelpersDriven.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanHelpersNew.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\AnimWavesAddFromTex.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\AnimWavesAddHeightFromGeometry.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\AnimWavesGerstnerBatchGeometry.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\AnimWavesRemoveGeometry.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\AnimWavesSetHeightToGeometry.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\AnimWavesWaveParticle.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\DynWavesAddBump.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\DynWavesObjectInteraction.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\DynWavesSphereWaterInteraction.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\FlowAddFlowMap.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\FlowFixedDirection.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\FoamAddFromTex.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\FoamAddFromVertCol.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\GerstnerShared.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\AnimWavesGerstnerBatch.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\ClipSurfaceConvexHull.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\ClipSurfaceIncludeArea.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\ClipSurfaceRemoveArea.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\ClipSurfaceRemoveAreaTexture.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\DynWavesDampenCircle.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\OceanDepths.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\OceanDepthsCache.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\ShadowOverride.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanInputsDriven.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanNormalMapping.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanReflection.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanSurfaceAlpha.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\OceanVertHelpers.hlsl" />
+    <None Include="Assets\Crest\Crest\Shaders\Resources\ClearToBlack.compute" />
+    <None Include="Assets\Crest\Crest\Shaders\Resources\Debug\TextureArray.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\Resources\QueryDisplacements.compute" />
+    <None Include="Assets\Crest\Crest\Shaders\Resources\QueryFlow.compute" />
+    <None Include="Assets\Crest\Crest\Shaders\Resources\ShapeCombine.compute" />
+    <None Include="Assets\Crest\Crest\Shaders\Resources\ShapeCombine.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\Resources\UpdateDynWaves.compute" />
+    <None Include="Assets\Crest\Crest\Shaders\Resources\UpdateFoam.compute" />
+    <None Include="Assets\Crest\Crest\Shaders\Resources\UpdateShadow.compute" />
+    <None Include="Assets\Crest\Crest\Shaders\Underwater\UnderwaterCurtain.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\Underwater\UnderwaterMeniscus.shader" />
+    <None Include="Assets\Crest\Crest\Shaders\Underwater\UnderwaterShared.hlsl" />
+    <None Include="Assets\Crest\Crest\Textures\Caustics\SOURCE.txt" />
+    <None Include="Assets\Crest\Crest\Textures\WaveNormals\SOURCE.TXT" />
+    <None Include="Assets\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
+    <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
+    <None Include="Assets\Jiggly Bubble Free\Shaders\Particle Alpha Blended Cubemap Skybox.shader" />
+    <None Include="Assets\Jiggly Bubble Free\Shaders\Particle Alpha Blended Cubemap.shader" />
+    <None Include="Assets\Jiggly Bubble Free\readme_Jiggly_Bubble_Free.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarPBRV2Simple.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShader.shader" />
@@ -1053,6 +1762,88 @@
     <None Include="Assets\Oculus\VR\Scripts\Editor\Oculus.VR.Scripts.Editor.asmdef" />
     <None Include="Assets\Oculus\VR\Shaders\OVRColorRampAlpha.shader" />
     <None Include="Assets\Oculus\VR\Shaders\Unlit Crosshair.shader" />
+    <None Include="Assets\Prefabs\Neptune\FractalJourney\Shader\Fractal.shader" />
+    <None Include="Assets\Prefabs\Neptune\TraumaElements\SurfaceShader_VC.shader" />
+    <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+    <None Include="Assets\Samples\ProBuilder\4.2.3\Editor Examples\Unity.ProBuilder.Examples.Editor.asmdef" />
+    <None Include="Assets\Samples\ProBuilder\4.2.3\Runtime Examples\Icosphere FFT\README.txt" />
+    <None Include="Assets\Samples\ProBuilder\4.2.3\Runtime Examples\Unity.ProBuilder.Examples.asmdef" />
+    <None Include="Assets\Samples\XR Plugin Management\3.2.13\Example XR Management implementation\Editor\Unity.XR.Management.Samples.Editor.asmdef" />
+    <None Include="Assets\Samples\XR Plugin Management\3.2.13\Example XR Management implementation\Unity.XR.Management.Samples.asmdef" />
+    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+    <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\VRTK\Documentation.txt" />
+    <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
+    <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
+    <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\UIOverlay.shader" />
+    <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
+    <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
+    <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\VRTK_TunnelEffect.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\SoftMaskShader.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Add.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle AddMultiply.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle AddSmooth.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Alpha Blend.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Blend.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Multiply.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle MultiplyDouble.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Premultiply Blend.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle VertexLit Blended.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UIAdditive.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UIImageCrop.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UILinearDodge.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UIMultiply.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UIParticleHidden.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UIScreen.shader" />
+    <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UISoftAdditive.shader" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryDark.uss" />
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryLight.uss" />
@@ -1062,6 +1853,111 @@
     <None Include="Packages\com.unity.ext.nunit\net35\unity-custom\nunit.framework.xml" />
     <None Include="Packages\com.unity.ide.rider\Rider\Editor\com.unity.ide.rider.asmdef" />
     <None Include="Packages\com.unity.ide.vscode\Editor\Unity.com.unity.vscode.Editor.asmdef" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Editor\Unity.Postprocessing.Editor.asmdef" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Runtime\Unity.Postprocessing.Runtime.asmdef" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\ACES.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\D3D11.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\D3D12.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\D3D9.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\Metal.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\OpenGL.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\PSP2.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\PSSL.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\Switch.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\Vulkan.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\XboxOne.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\AutoExposure.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Bloom.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Copy.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\CopyStd.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\CopyStdFromDoubleWide.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\CopyStdFromTexArray.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DeferredFog.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DepthOfField.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DepthOfField.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DiscardAlpha.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DiskKernels.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Distortion.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Dithering.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ExposureHistogram.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ExposureHistogram.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\FastApproximateAntialiasing.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\FinalPass.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Fog.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\GaussianDownsample.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\GrainBaker.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Lut2DBaker.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Lut3DBaker.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MotionBlur.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVO.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVODownsample1.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVODownsample2.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVORender.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVOUpsample.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ScalableAO.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ScalableAO.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ScreenSpaceReflections.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ScreenSpaceReflections.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasingBridge.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\TemporalAntialiasing.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Texture2DLerp.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Texture3DLerp.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Uber.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Colors.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Histogram.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Histogram.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\LightMeter.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Overlays.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Vectorscope.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Vectorscope.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Waveform.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Waveform.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Editor\ConvertToLog.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Editor\CurveGrid.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Editor\Trackball.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Sampling.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\StdLib.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\xRLib.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\Tests\Editor\Unity.Postprocessing.Editor.Tests.asmdef" />
+    <None Include="Packages\com.unity.postprocessing\Tests\Runtime\Unity.Postprocessing.Runtime.Tests.asmdef" />
+    <None Include="Packages\com.unity.probuilder\Addons\Unity.ProBuilder.AddOns.Editor.asmdef" />
+    <None Include="Packages\com.unity.probuilder\AssetIdRemapUtility\Editor\Unity.ProBuilder.AssetIdRemapUtility.asmdef" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\DiffuseTextureBlend.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\DiffuseVertexColor.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\EdgePicker.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\FaceHighlight.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\FacePicker.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\HideVertices.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\LineBillboard.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\LineBillboardMetal.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\NormalPreview.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\PointBillboard.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\ProBuilderCG.cginc" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\ReferenceUnlit.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\ScrollHighlight.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\SelectionPicker.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\SmoothingPreview.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\StandardVertexColor.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\TransparentOverlay.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\UnlitSolidColor.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\UnlitVertexColor.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\VertexPicker.shader" />
+    <None Include="Packages\com.unity.probuilder\Content\Shader\VertexShader.shader" />
+    <None Include="Packages\com.unity.probuilder\Editor\Unity.ProBuilder.Editor.asmdef" />
+    <None Include="Packages\com.unity.probuilder\External\KdTree\Unity.ProBuilder.KdTree.asmdef" />
+    <None Include="Packages\com.unity.probuilder\External\Poly2Tri\Unity.ProBuilder.Poly2Tri.asmdef" />
+    <None Include="Packages\com.unity.probuilder\External\StlExporter\Unity.ProBuilder.Stl.asmdef" />
+    <None Include="Packages\com.unity.probuilder\Runtime\Unity.ProBuilder.asmdef" />
+    <None Include="Packages\com.unity.progrids\Editor\Unity.ProGrids.Editor.asmdef" />
+    <None Include="Packages\com.unity.progrids\Font\SIL Open Font License.txt" />
+    <None Include="Packages\com.unity.progrids\Runtime\Unity.ProGrids.asmdef" />
+    <None Include="Packages\com.unity.progrids\Shader\GridShader.shader" />
+    <None Include="Packages\com.unity.progrids\Tests\Editor\Unity.ProGrids.Editor.Tests.asmdef" />
+    <None Include="Packages\com.unity.progrids\Tests\Runtime\Unity.ProGrids.Tests.asmdef" />
+    <None Include="Packages\com.unity.settings-manager\Editor\Unity.Settings.Editor.asmdef" />
+    <None Include="Packages\com.unity.settings-manager\Tests\Editor\Unity.Settings.Editor.Tests.asmdef" />
     <None Include="Packages\com.unity.subsystemregistration\Runtime\Unity.Subsystem.Registration.asmdef" />
     <None Include="Packages\com.unity.subsystemregistration\Tests\Runtime\Unity.Subsystem.Registration.Runtime.Tests.asmdef" />
     <None Include="Packages\com.unity.test-framework\UnityEditor.TestRunner\UnityEditor.TestRunner.asmdef" />

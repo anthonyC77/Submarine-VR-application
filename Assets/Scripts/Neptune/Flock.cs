@@ -7,17 +7,53 @@ public class Flock : MonoBehaviour
     public FlockManager MyManager;
     float Speed;
     bool Turning = false;
+    bool TurningCollision = false;
+    private Vector3 newGoalPos;
 
     // Start is called before the first frame update
     void Start()
     {
-        Speed = Random.Range(MyManager.MinSpeed, MyManager.MaxSpeed);
+        SpeedRandom();
+        ApplyAnimationSpeed();
+    }
+
+    void ApplyAnimationSpeed()
+    {
+        var anim = this.GetComponent<Animation>();
+        if (anim != null)
+        {
+            anim["swim"].speed = Speed;
+        }       
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (!TurningCollision)
+            newGoalPos = this.transform.position - other.gameObject.transform.position;
+
+        TurningCollision = true;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        TurningCollision = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        BoundRules();
+        if (TurningCollision)
+        {
+            Vector3 direction = newGoalPos - transform.position;
+            transform.rotation = Quaternion.Slerp(transform.rotation, 
+                                                  Quaternion.LookRotation(direction), 
+                                                  MyManager.RotationSpeed * Time.deltaTime);
+            SpeedRandom();
+            ApplyAnimationSpeed();
+        }
+        else
+            BoundRules();
+
         transform.Translate(0, 0, Time.deltaTime * Speed);
     }
 
@@ -129,10 +165,5 @@ public class Flock : MonoBehaviour
                 transform.rotation = Rotation(direction);
             }
         }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        
     }
 }

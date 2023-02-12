@@ -59,7 +59,7 @@ public class SwordMovements : MonoBehaviour
     private void ColumnRiseUp()
     {
         var y = Column.transform.position.y;
-        if (y < 0)
+        if (y < -0.02f)
         {
             Column.transform.Translate(new Vector3(0, Time.deltaTime, 0));
         }

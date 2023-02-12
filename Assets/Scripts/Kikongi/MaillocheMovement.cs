@@ -6,11 +6,15 @@ using UnityEngine;
 public class MaillocheMovement : MonoBehaviour
 {
     public GameObject Kikongi;
-    public GameObject Animals;
-    public FlockManager Manager;
+    public GameObject AllPlants;
+    public GameObject KikongiMessage;
+    public FlockManager Manager;    
+    public List<GameObject> AnimalsPlantsManagers;
     public List<GameObject> Plants;
+
     public GameObject DolphinCircle;
     public int maxPlaysForDolphinAndWhale = 20;
+    private List<string> AnimalsManagersToAdd;
 
     List<GameObject> Notes = new List<GameObject>();
     Vector3 posMailloche;    
@@ -18,9 +22,12 @@ public class MaillocheMovement : MonoBehaviour
     bool? hasMovedFishes = null;
     int fishToAdd = 0;    
 
+
     private void Awake()
     {
         Notes = GameObject.FindGameObjectsWithTag(Names.NOTES).ToList();
+        AnimalsManagersToAdd = new List<string>();
+        FillAnimalsList();
     }
 
     string colliderName = string.Empty;
@@ -41,11 +48,43 @@ public class MaillocheMovement : MonoBehaviour
         //}
     }
 
+    private bool HasAnimalsManager()
+    {
+        return AnimalsPlantsManagers != null && AnimalsPlantsManagers.Count > 0;
+    }
+
+    private void FillAnimalsList()
+    {
+        if (HasAnimalsManager())
+        {
+            foreach (var animal in AnimalsPlantsManagers)
+            {
+                AnimalsManagersToAdd.Add(animal.name);
+            }
+        }
+    }
+
+    private void AddAnimalManager()
+    {
+        if (HasAnimalsManager() && AnimalsManagersToAdd.Count > 0)
+        {
+            int nb = AnimalsManagersToAdd.Count;
+            var rand = Random.Range(0, nb - 1);
+
+            var nameToAdd = AnimalsManagersToAdd[rand];
+
+            var managerAnimal = AnimalsPlantsManagers.Where(m => m.name == nameToAdd).First();
+            managerAnimal.SetActive(true);
+
+            AnimalsManagersToAdd.Remove(nameToAdd);
+        }
+    }
+
     private void AddPlants()
     {
-        if (Plants != null && Plants.Count > 0)
+        if (Plants != null && Plants.Count > 0 && AllPlants != null)
         {
-            AddRandomPlants.Put(Plants, Animals.transform);
+            AddRandomPlants.Put(Plants, AllPlants.transform);
         }
     }
 
@@ -61,6 +100,7 @@ public class MaillocheMovement : MonoBehaviour
             if (!string.IsNullOrEmpty(colliderName) && !playNote)
             {
                 AddPlants();
+                AddAnimalManager();
                 fishToAdd++;
                 StartCoroutine(ReplaceMailloche());
             }
@@ -69,11 +109,11 @@ public class MaillocheMovement : MonoBehaviour
         {
             if (!animalVisible)
             {
-                if (Animals != null)
-                {
-                    Animals.SetActive(true);
-                    animalVisible = true;
-                }                
+                //if (Animals != null)
+                //{
+                //    Animals.SetActive(true);
+                //    animalVisible = true;
+                //}                
             }
             else
             {

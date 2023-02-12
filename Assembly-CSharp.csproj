@@ -24,7 +24,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_2;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_2;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_POST_PROCESSING_STACK_V2;VRTK_DEFINE_OCULUS_UTILITIES_1_12_0_OR_NEWER;VRTK_DEFINE_SDK_OCULUS;VRTK_VERSION_3_3_0;VRTK_VERSION_3_3_0_OR_NEWER;VRTK_VERSION_3_1_0_OR_NEWER;VRTK_VERSION_3_2_0_OR_NEWER;VRTK_VERSION_3_2_1_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -398,17 +398,30 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
-    <Compile Include="Assets\Scenes\Neptune\TestMovement.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\BackToNeptune.cs" />
+    <Compile Include="Assets\Scripts\BallMovements.cs" />
     <Compile Include="Assets\Scripts\CatchPlanet.cs" />
     <Compile Include="Assets\Scripts\ColliderActions.cs" />
     <Compile Include="Assets\Scripts\ColliderNote.cs" />
     <Compile Include="Assets\Scripts\ColliderPlanet.cs" />
     <Compile Include="Assets\Scripts\ColliderWall.cs" />
+    <Compile Include="Assets\Scripts\EnterPlanetScene.cs" />
     <Compile Include="Assets\Scripts\Floor.cs" />
+    <Compile Include="Assets\Scripts\Fog.cs" />
     <Compile Include="Assets\Scripts\HeadPhones\GrabHeadPhone.cs" />
     <Compile Include="Assets\Scripts\HeadPhones\HeadPhoneRecorder.cs" />
     <Compile Include="Assets\Scripts\HeadPhones\Test.cs" />
     <Compile Include="Assets\Scripts\Helper.cs" />
+    <Compile Include="Assets\Scripts\HelperController.cs" />
+    <Compile Include="Assets\Scripts\HelperText.cs" />
     <Compile Include="Assets\Scripts\Kikongi\Commands\PlayNoteKikongiCommand.cs" />
     <Compile Include="Assets\Scripts\Kikongi\GrabMailloche.cs" />
     <Compile Include="Assets\Scripts\Kikongi\Interface\ICommand.cs" />
@@ -416,10 +429,16 @@
     <Compile Include="Assets\Scripts\Kikongi\Managers\CommandManager.cs" />
     <Compile Include="Assets\Scripts\Kikongi\Recorder.cs" />
     <Compile Include="Assets\Scripts\Kikongi\Save\SavePlayInFile.cs" />
+    <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\Mailloche.cs" />
+    <Compile Include="Assets\Scripts\MainMenuLoading.cs" />
     <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Menu\PhysicPointer.cs" />
+    <Compile Include="Assets\Scripts\Menu\VRInput.cs" />
+    <Compile Include="Assets\Scripts\MovementBallByPlayer.cs" />
     <Compile Include="Assets\Scripts\Neptune\AddRandomPlants.cs" />
     <Compile Include="Assets\Scripts\Neptune\CatchGarbages.cs" />
+    <Compile Include="Assets\Scripts\Neptune\CommandEMDR.cs" />
     <Compile Include="Assets\Scripts\Neptune\DynamiteExplodes.cs" />
     <Compile Include="Assets\Scripts\Neptune\EmitBubbleSound.cs" />
     <Compile Include="Assets\Scripts\Neptune\EnterTheDoor.cs" />
@@ -432,11 +451,13 @@
     <Compile Include="Assets\Scripts\Neptune\MaillocheKikongiTwoFaces.cs" />
     <Compile Include="Assets\Scripts\Neptune\PlayWithDolphin.cs" />
     <Compile Include="Assets\Scripts\Neptune\Player\ChangeCamera.cs" />
+    <Compile Include="Assets\Scripts\Neptune\ReverseSphere.cs" />
     <Compile Include="Assets\Scripts\Neptune\Rope.cs" />
     <Compile Include="Assets\Scripts\Neptune\SandPillarPosition.cs" />
     <Compile Include="Assets\Scripts\Neptune\SpawnCorals.cs" />
     <Compile Include="Assets\Scripts\Neptune\Swim.cs" />
     <Compile Include="Assets\Scripts\Neptune\eNotes2Faces.cs" />
+    <Compile Include="Assets\Scripts\OnNeptuneLoaded.cs" />
     <Compile Include="Assets\Scripts\PhoenixMovements.cs" />
     <Compile Include="Assets\Scripts\Planet.cs" />
     <Compile Include="Assets\Scripts\PlanetPosition.cs" />
@@ -444,9 +465,11 @@
     <Compile Include="Assets\Scripts\Sounds\MyAudioManager.cs" />
     <Compile Include="Assets\Scripts\Sounds\MySound.cs" />
     <Compile Include="Assets\Scripts\SphereChangeColor.cs" />
+    <Compile Include="Assets\Scripts\StartTimeline.cs" />
     <Compile Include="Assets\Scripts\Sun\SunAttraction.cs" />
     <Compile Include="Assets\Scripts\Sword\SwordMovements.cs" />
     <Compile Include="Assets\Scripts\TagNames.cs" />
+    <Compile Include="Assets\Scripts\ToEMDR.cs" />
     <Compile Include="Assets\Scripts\eNote.cs" />
     <Compile Include="Assets\Scripts\ePlanet.cs" />
     <Compile Include="Assets\Scripts\ePositionType.cs" />
@@ -622,125 +645,75 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Add.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\Resources\UpdateDynWaves.compute" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\AnimWavesAddHeightFromGeometry.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\GerstnerShared.hlsl" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\FoamAddFromVertCol.shader" />
     <None Include="Assets\Jiggly Bubble Free\Shaders\Particle Alpha Blended Cubemap.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\Misc\OceanProxy.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\AnimWavesAddFromTex.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\FoamAddFromTex.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Jiggly Bubble Free\Shaders\Particle Alpha Blended Cubemap Skybox.shader" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UIScreen.shader" />
+    <None Include="Assets\Materials\WaterGlass\GlassMask.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Multiply.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_Loader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\GradientSkybox.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_SingleComponent.shader" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UIMultiply.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanFoam.hlsl" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\DynWavesSphereWaterInteraction.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\AnimWavesSetHeightToGeometry.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShader.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\AvatarEyeLens.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_PC_SingleComponentExpressive.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\FlowAddFlowMap.shader" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UILinearDodge.shader" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Alpha Blend.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\FullScreenTriangle.hlsl" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\ShadowOverride.shader" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\SoftMaskShader.shader" />
     <None Include="Assets\Prefabs\Neptune\FractalJourney\Shader\Fractal.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanHelpersNew.hlsl" />
-    <None Include="Assets\Crest\Crest\Shaders\Underwater\UnderwaterCurtain.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\Resources\UpdateShadow.compute" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Premultiply Blend.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
+    <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\Locomotion\Materials\ColumnGlow.shader" />
-    <None Include="Assets\Crest\Crest\Textures\Caustics\SOURCE.txt" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\DynWavesObjectInteraction.shader" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle VertexLit Blended.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Prefabs\Neptune\TraumaElements\SurfaceShader_VC.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_CombinedMeshExpressive.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\FlowFixedDirection.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\Ocean.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\OceanDepths.shader" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle MultiplyDouble.shader" />
+    <None Include="Assets\Materials\Neptune\Invert.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBSV2.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_CombinedMesh.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\AnimWavesGerstnerBatchGeometry.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\Underwater\UnderwaterShared.hlsl" />
     <None Include="Assets\Oculus\SampleFramework\Core\Video\Resources\Multiview Stereo.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat\OFL.txt" />
     <None Include="Assets\Oculus\Avatar\Samples\SocialStarter\README.txt" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_01.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanNormalMapping.hlsl" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle AddMultiply.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarPBRV2Simple.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\ClipSurfaceIncludeArea.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\AnimWavesGerstnerBatch.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanReflection.hlsl" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle Blend.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\Crest\Crest\Shaders\Resources\Debug\TextureArray.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\ClipSurfaceRemoveArea.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\OceanDepthsCache.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanVertHelpers.hlsl" />
-    <None Include="Assets\Crest\Crest\Shaders\Resources\ShapeCombine.compute" />
     <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\ClipSurfaceRemoveAreaTexture.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\Resources\QueryDisplacements.compute" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanGlobals.hlsl" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanHelpersDriven.hlsl" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\AnimWavesWaveParticle.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\GPUNoise\SOURCE.txt" />
-    <None Include="Assets\Crest\Crest\Shaders\Resources\QueryFlow.compute" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UISoftAdditive.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\GPUNoise\GPUNoise.hlsl" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UI Particle AddSmooth.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\Resources\ShapeCombine.shader" />
     <None Include="Assets\Jiggly Bubble Free\readme_Jiggly_Bubble_Free.txt" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\ClipSurfaceConvexHull.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanHelpers.hlsl" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainSmokeShader.shader" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UIImageCrop.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\Underwater\UnderwaterMeniscus.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanSurfaceAlpha.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\NOTICE.txt" />
-    <None Include="Assets\Crest\Crest\Shaders\Resources\ClearToBlack.compute" />
     <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\ThirdPartyNotices.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanEmission.hlsl" />
     <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBS.shader" />
     <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_Transparent.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\DynWavesAddBump.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanConstants.hlsl" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\Resources\DynWavesDampenCircle.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_02.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_DiffBump.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\Resources\UpdateFoam.compute" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_SingleComponentExpressive.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputs\AnimWavesRemoveGeometry.shader" />
-    <None Include="Assets\Crest\Crest\Shaders\OceanInputsDriven.hlsl" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\unity-ui-extensions\Runtime\Resources\Shaders\UIParticleHidden.shader" />
     <None Include="Assets\Oculus\SampleFramework\license.txt" />
@@ -1305,11 +1278,17 @@
     <Reference Include="Unity.XR.Oculus">
       <HintPath>C:/Users/antho/FirstOcculusQuestDemo/TestOculus withHands/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>C:/Users/antho/FirstOcculusQuestDemo/TestOculus withHands/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/antho/FirstOcculusQuestDemo/TestOculus withHands/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
       <HintPath>C:/Users/antho/FirstOcculusQuestDemo/TestOculus withHands/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>C:/Users/antho/FirstOcculusQuestDemo/TestOculus withHands/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/antho/FirstOcculusQuestDemo/TestOculus withHands/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -1331,6 +1310,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/antho/FirstOcculusQuestDemo/TestOculus withHands/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>C:/Users/antho/FirstOcculusQuestDemo/TestOculus withHands/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>C:/Users/antho/FirstOcculusQuestDemo/TestOculus withHands/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
@@ -1355,17 +1337,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Crest.Examples.csproj">
-      <Project>{97485A39-6A58-8BBE-64D1-ED51932C4FF5}</Project>
-      <Name>Crest.Examples</Name>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{DE141881-0C90-3B9A-C71E-BDDDCEC7AF8D}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.Examples.Editor.csproj">
       <Project>{21A78128-EC24-E7AB-C83A-2F900D01645B}</Project>
       <Name>Unity.ProBuilder.Examples.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Crest.csproj">
-      <Project>{7B43D600-11F8-67D8-6627-0839AA879B70}</Project>
-      <Name>Crest</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
       <Project>{7CC73F15-B0BD-A2D2-3601-11BA60ACE1FA}</Project>
@@ -1378,10 +1356,6 @@
     <ProjectReference Include="Unity.ProBuilder.Examples.csproj">
       <Project>{39D1A7E3-861B-6127-7797-31F772B7B8F8}</Project>
       <Name>Unity.ProBuilder.Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Crest.Helpers.Editor.csproj">
-      <Project>{76D8A647-9348-49E5-999E-9A05FA17B6A2}</Project>
-      <Name>Crest.Helpers.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
       <Project>{E4FDDD72-EDD0-1303-7FD9-2B645F70EE22}</Project>

@@ -49,7 +49,7 @@ public class Explorer : MonoBehaviour
     private Dictionary<eDirection, bool> GetChosenDirectionOcculus()
     {
         var axis = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
-
+        
         Dictionary<eDirection, bool> dirs = new Dictionary<eDirection, bool>();
         dirs.Add(Navigation.eDirection.IN, OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger));
         dirs.Add(Navigation.eDirection.OUT, OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger));

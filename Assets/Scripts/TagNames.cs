@@ -53,5 +53,10 @@ public static class Names
     public static readonly string HANDLEFT = "HandLeft";
     public static readonly string HANDRIGHT = "HandRight";
     public static readonly string SEABED = "SeaBed";
+    public static readonly string DYNAMITES = "Dynamites";
+    public static readonly string NEPTUNE = "Neptune";
+    public static readonly string HEART = "Heart";
+    public static readonly string EMDR = "EMDR";
+    public static readonly string FRACTALJOURNEY = "FractalJourney";
+    public static readonly string FRACTAL = "Fractal";
 }
-;

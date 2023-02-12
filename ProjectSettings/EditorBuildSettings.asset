@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 9d549c2ea425da44984a3089a786f0e9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 2bcd3b2b5269fe54e9ffcb647f43a141
   - enabled: 1
@@ -24,8 +24,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Neptune/FractalJourney.unity
     guid: 00b376aa1247c6a48a61eeb8a7de0fc8
   - enabled: 0
-    path: Assets/Scenes/Neptune/Test.unity
-    guid: ace3d6bdc533ff642b4fa18f73253799
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Neptune/EMDR.unity
+    guid: f89b72acc42b84d4cb10acceac7fed1e
+  - enabled: 1
+    path: Assets/Scenes/Neptune/Fractal.unity
+    guid: 48df4fa65f4841f42ba7015627dd8536
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2c5e9e72459caa84e95b96cd99623e9a,
       type: 2}

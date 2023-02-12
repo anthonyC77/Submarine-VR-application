@@ -81,7 +81,7 @@ public class PhoenixMovements : MonoBehaviour
 
     private void WingsFly(bool fly)
     {
-        Phoenix.GetComponent<Animator>().SetBool(Names.FLY, fly);
+        //Phoenix.GetComponent<Animator>().SetBool(Names.FLYALL, fly);
         //Phoenix.GetComponent<Animator>().SetBool(Names.FLYALL, fly);
     }
 

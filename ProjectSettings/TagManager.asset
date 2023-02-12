@@ -46,6 +46,10 @@ TagManager:
   - HandLeft
   - HandRight
   - SeaBed
+  - Dynamites
+  - Fire
+  - Neptune
+  - Heart
   layers:
   - Default
   - TransparentFX

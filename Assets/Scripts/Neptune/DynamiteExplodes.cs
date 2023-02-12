@@ -9,6 +9,7 @@ public class DynamiteExplodes : MonoBehaviour
     public GameObject AfterExplosion;
     public float TimeBeforeExplosion = 10;
     public AudioSource ExplosionSound;
+    public GameObject RockToDestroy;
 
     private void Start()
     {
@@ -30,6 +31,14 @@ public class DynamiteExplodes : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         ApplySetActive(Explosion, false);
         ApplySetActive(AfterExplosion, true);
+
+        if (RockToDestroy != null)
+        {
+            RockToDestroy.SetActive(false);
+        }
+
+        yield return new WaitForSeconds(20);
+        ApplySetActive(AfterExplosion, false);
     }
 
     private void ApplySetActive(GameObject explode, bool setactive)

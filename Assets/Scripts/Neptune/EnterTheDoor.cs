@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class EnterTheDoor : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == Names.PLAYER)
+        if (other.tag == Names.PLAYER)
         {
-            SceneManager.LoadScene("FractalJourney", LoadSceneMode.Single);
+            SceneManager.LoadScene("Fractal", LoadSceneMode.Single);
         }
     }
 }
