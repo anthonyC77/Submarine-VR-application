@@ -51,3 +51,17 @@ crashlytics-build.properties
 
 # JetBrains Rider
 .idea/
+
+# Asset packs non utilisés dans le projet
+Assets/EffectExamples/
+Assets/EffectExamples.meta
+Assets/Jiggly Bubble Free/
+Assets/Jiggly Bubble Free.meta
+Assets/SampleScenes/
+Assets/SampleScenes.meta
+Assets/Standard Assets/
+Assets/Standard Assets.meta
+
+# Fichiers parasites
+nul
+ProjectSettings/PackageManagerSettings.asset
