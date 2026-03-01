@@ -35,15 +35,14 @@ using UnityEditor;
 
 #if USING_XR_SDK
 using UnityEngine.XR;
-using UnityEngine.Experimental.XR;
 #endif
 
 #if UNITY_2017_2_OR_NEWER
 using Settings = UnityEngine.XR.XRSettings;
 using Node = UnityEngine.XR.XRNode;
 #else
-using Settings = UnityEngine.VR.VRSettings;
-using Node = UnityEngine.VR.VRNode;
+using Settings = UnityEngine.XR.XRSettings;
+using Node = UnityEngine.XR.XRNode;
 #endif
 
 /// <summary>
@@ -1654,21 +1653,21 @@ public class OVRManager : MonoBehaviour
 			recommendedViewportScale = Mathf.Clamp(recommendedViewportScale, minViewportScale, 1.0f);
 			Settings.renderViewportScale = recommendedViewportScale;
 #else
-			if (UnityEngine.VR.VRSettings.renderScale < maxRenderScale)
+			if (UnityEngine.XR.XRSettings.renderScale < maxRenderScale)
 			{
 				// Allocate renderScale to max to avoid re-allocation
-				UnityEngine.VR.VRSettings.renderScale = maxRenderScale;
+				UnityEngine.XR.XRSettings.renderScale = maxRenderScale;
 			}
 			else
 			{
 				// Adjusting maxRenderScale in case app started with a larger renderScale value
-				maxRenderScale = Mathf.Max(maxRenderScale, UnityEngine.VR.VRSettings.renderScale);
+				maxRenderScale = Mathf.Max(maxRenderScale, UnityEngine.XR.XRSettings.renderScale);
 			}
 			minRenderScale = Mathf.Min(minRenderScale, maxRenderScale);
-			float minViewportScale = minRenderScale / UnityEngine.VR.VRSettings.renderScale;
-			float recommendedViewportScale = OVRPlugin.GetEyeRecommendedResolutionScale() / UnityEngine.VR.VRSettings.renderScale;
+			float minViewportScale = minRenderScale / UnityEngine.XR.XRSettings.renderScale;
+			float recommendedViewportScale = OVRPlugin.GetEyeRecommendedResolutionScale() / UnityEngine.XR.XRSettings.renderScale;
 			recommendedViewportScale = Mathf.Clamp(recommendedViewportScale, minViewportScale, 1.0f);
-			UnityEngine.VR.VRSettings.renderViewportScale = recommendedViewportScale;
+			UnityEngine.XR.XRSettings.renderViewportScale = recommendedViewportScale;
 #endif
 		}
 #endif

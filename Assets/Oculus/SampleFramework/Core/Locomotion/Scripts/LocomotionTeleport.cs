@@ -16,7 +16,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine.EventSystems;
-using UnityEngine.VR;
+using UnityEngine.XR;
 using Debug = UnityEngine.Debug;
 
 
@@ -827,7 +827,7 @@ public class LocomotionTeleport : MonoBehaviour
 			}
 		}
 #else
-		headRotation = InputTracking.GetLocalRotation(VRNode.Head);
+		headRotation = InputTracking.GetLocalRotation(XRNode.Head);
 #endif
 		Vector3 euler = headRotation.eulerAngles;
 		euler.x = 0;

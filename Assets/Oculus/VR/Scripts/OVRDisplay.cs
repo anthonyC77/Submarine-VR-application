@@ -27,12 +27,12 @@ using NodeState = UnityEngine.XR.XRNodeState;
 using Settings = UnityEngine.XR.XRSettings;
 #elif UNITY_2017_1_OR_NEWER
 using InputTracking = UnityEngine.VR.InputTracking;
-using Node = UnityEngine.VR.VRNode;
-using NodeState = UnityEngine.VR.VRNodeState;
-using Settings = UnityEngine.VR.VRSettings;
+using Node = UnityEngine.XR.XRNode;
+using NodeState = UnityEngine.XR.XRNodeState;
+using Settings = UnityEngine.XR.XRSettings;
 #else
-using Node = UnityEngine.VR.VRNode;
-using Settings = UnityEngine.VR.VRSettings;
+using Node = UnityEngine.XR.XRNode;
+using Settings = UnityEngine.XR.XRSettings;
 #endif
 
 /// <summary>
@@ -251,7 +251,7 @@ public class OVRDisplay
 #if UNITY_2017_2_OR_NEWER
     public EyeRenderDesc GetEyeRenderDesc(UnityEngine.XR.XRNode eye)
 #else
-	public EyeRenderDesc GetEyeRenderDesc(UnityEngine.VR.VRNode eye)
+	public EyeRenderDesc GetEyeRenderDesc(UnityEngine.XR.XRNode eye)
 #endif
 	{
 		return eyeDescs[(int)eye];
@@ -343,15 +343,15 @@ public class OVRDisplay
 		ConfigureEyeDesc(UnityEngine.XR.XRNode.LeftEye);
         ConfigureEyeDesc(UnityEngine.XR.XRNode.RightEye);
 #else
-		ConfigureEyeDesc(UnityEngine.VR.VRNode.LeftEye);
-		ConfigureEyeDesc(UnityEngine.VR.VRNode.RightEye);
+		ConfigureEyeDesc(UnityEngine.XR.XRNode.LeftEye);
+		ConfigureEyeDesc(UnityEngine.XR.XRNode.RightEye);
 #endif
 	}
 
 #if UNITY_2017_2_OR_NEWER
     private void ConfigureEyeDesc(UnityEngine.XR.XRNode eye)
 #else
-	private void ConfigureEyeDesc(UnityEngine.VR.VRNode eye)
+	private void ConfigureEyeDesc(UnityEngine.XR.XRNode eye)
 #endif
 	{
 		if (!OVRManager.isHmdPresent)

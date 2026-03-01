@@ -17,11 +17,11 @@ namespace ProBuilder.Examples
 			var mesh = gameObject.AddComponent<ProBuilderMesh>();
 
 			// Create a new MeshImporter
-			var importer = new MeshImporter(mesh);
+			var importer = new MeshImporter(gameObject);
 
 			// Import from a GameObject. In this case we're loading and assigning to the same GameObject, but you may
 			// load and apply to different Objects as well.
-			importer.Import(filter.sharedMesh);
+			importer.Import();
 
 			// Since we're loading and setting from the same object, it is necessary to create a new mesh to avoid
 			// overwriting the mesh that is being read from.

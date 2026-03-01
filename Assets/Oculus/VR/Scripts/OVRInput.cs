@@ -26,8 +26,8 @@ using Node = UnityEngine.XR.XRNode;
 using Settings = UnityEngine.XR.XRSettings;
 #else
 using InputTracking = UnityEngine.VR.InputTracking;
-using Node = UnityEngine.VR.VRNode;
-using Settings = UnityEngine.VR.VRSettings;
+using Node = UnityEngine.XR.XRNode;
+using Settings = UnityEngine.XR.XRSettings;
 #endif
 
 /// <summary>

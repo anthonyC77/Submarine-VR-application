@@ -28,7 +28,7 @@ using InputTracking = UnityEngine.XR.InputTracking;
 using Node = UnityEngine.XR.XRNode;
 #else
 using InputTracking = UnityEngine.VR.InputTracking;
-using Node = UnityEngine.VR.VRNode;
+using Node = UnityEngine.XR.XRNode;
 #endif
 
 /// <summary>
@@ -430,7 +430,7 @@ public class OVRCameraRig : MonoBehaviour
 			return Matrix4x4.identity;
 		}
 
-		// The ideal approach would be using UnityEngine.VR.VRNode.TrackingReference, then we would not have to depend on the OVRCameraRig. Unfortunately, it is not available in Unity 5.4.3
+		// The ideal approach would be using UnityEngine.XR.XRNode.TrackingReference, then we would not have to depend on the OVRCameraRig. Unfortunately, it is not available in Unity 5.4.3
 
 		OVRPose headPose = OVRPose.identity;
 

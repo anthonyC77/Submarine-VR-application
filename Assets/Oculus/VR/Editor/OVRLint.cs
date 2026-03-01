@@ -626,7 +626,7 @@ public class OVRLint : EditorWindow
 #if UNITY_2017_2_OR_NEWER
 		if (UnityEngine.XR.XRSettings.eyeTextureResolutionScale > 1.5)
 #else
-		if (UnityEngine.VR.VRSettings.renderScale > 1.5)
+		if (UnityEngine.XR.XRSettings.renderScale > 1.5)
 #endif
 		{
 			AddFix("Optimize Render Scale", "Render scale above 1.5 is extremely expensive on the GPU, with little if any positive visual benefit.", delegate (UnityEngine.Object obj, bool last, int selected)
@@ -634,7 +634,7 @@ public class OVRLint : EditorWindow
 #if UNITY_2017_2_OR_NEWER
 				UnityEngine.XR.XRSettings.eyeTextureResolutionScale = 1.5f;
 #else
-				UnityEngine.VR.VRSettings.renderScale = 1.5f;
+				UnityEngine.XR.XRSettings.renderScale = 1.5f;
 #endif
 			}, null, false, "Fix");
 		}
@@ -654,7 +654,7 @@ public class OVRLint : EditorWindow
 		}
 
 		// Check that the minSDKVersion meets requirement, 21 for Gear and Go, 23 for Quest
-		AndroidSdkVersions recommendedAndroidMinSdkVersion = AndroidSdkVersions.AndroidApiLevel21;
+		AndroidSdkVersions recommendedAndroidMinSdkVersion = AndroidSdkVersions.AndroidApiLevel22;
 		if (OVRDeviceSelector.isTargetDeviceQuest)
 		{
 			recommendedAndroidMinSdkVersion = AndroidSdkVersions.AndroidApiLevel23;
@@ -741,7 +741,7 @@ public class OVRLint : EditorWindow
 
 		var textures = Resources.FindObjectsOfTypeAll<Texture2D>();
 
-		int maxTextureSize = 1024 * (1 << QualitySettings.masterTextureLimit);
+		int maxTextureSize = 1024 * (1 << QualitySettings.globalTextureMipmapLimit);
 		maxTextureSize = maxTextureSize * maxTextureSize;
 
 		for (int i = 0; i < textures.Length; ++i)
@@ -864,9 +864,11 @@ public class OVRLint : EditorWindow
 			AudioImporter importer = AssetImporter.GetAtPath(assetPath) as AudioImporter;
 			if (importer != null)
 			{
-				if (preload != importer.preloadAudioData)
+				if (preload != importer.defaultSampleSettings.preloadAudioData)
 				{
-					importer.preloadAudioData = preload;
+					var s = importer.defaultSampleSettings;
+				s.preloadAudioData = preload;
+				importer.defaultSampleSettings = s;
 
 					AssetDatabase.ImportAsset(assetPath);
 					if (refreshImmediately)
