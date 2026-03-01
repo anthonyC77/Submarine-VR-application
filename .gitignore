@@ -65,3 +65,6 @@ Assets/Standard Assets.meta
 # Fichiers parasites
 nul
 ProjectSettings/PackageManagerSettings.asset
+
+# Vidéos et enregistrements (trop lourds pour GitHub)
+Recordings/
