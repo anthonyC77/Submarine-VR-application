@@ -1,5 +1,10 @@
 # CLAUDE.md
 
+## Personal information
+- ** Anthony
+- ** Développeur senior C# depuis 2007 et chef de projet tchnique sur des applications .Net depuis les WebForms et Winforms jusqu'à .Net Core 8 et 9 et Angular. Ayant réalisé une application Unity déployé sur mon casque Oculus Quest 1.
+
+
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
