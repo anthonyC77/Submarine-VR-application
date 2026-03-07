@@ -62,6 +62,15 @@ Assets/SampleScenes.meta
 Assets/Standard Assets/
 Assets/Standard Assets.meta
 
+# Packages Oculus SDK non utilisés dans le projet (LipSync, Avatar, Platform)
+# Ces packages peuvent être réinstallés depuis l'Oculus Asset Store si besoin
+Assets/Oculus/LipSync/
+Assets/Oculus/LipSync.meta
+Assets/Oculus/Avatar/
+Assets/Oculus/Avatar.meta
+Assets/Oculus/Platform/
+Assets/Oculus/Platform.meta
+
 # Fichiers parasites
 nul
 ProjectSettings/PackageManagerSettings.asset

@@ -1,0 +1,6 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "bash \"D:\\FirstOcculusQuestDemo\\TestOculus withHands\\.claude\\statusline-command.sh\""
+  }
+}
