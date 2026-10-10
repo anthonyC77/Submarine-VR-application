@@ -1,8 +1,9 @@
-Cette application a été réalisé pour valider mon DU de réalité virtuelle et domaine de la psychologie.
+# Submarine VR
 
-Ce projet se propose d'être un voyage dans le système solaire avec la possibilité de visiter les 8 planètes que composent notre système solaire.
-Seule la planète Neptune est pour le moment visitable.
-Cette planète se situe dans un environnement sous marin.
-Sur cette planète l'objectif est de rentrer en harmonie avec la nature, les éléments, les animaux.
-L'interaction créative de l'utilisateur avec ce qui l'entoure se fait via un instrument de musique qui existe dans la réalité, le kikongi. 
-A chaque frappe sur une note suivant la mailloche choisie  l'environnement sera modifié en ajoutant des plantes ou des animaux. 
+Application de réalité virtuelle pour Oculus Quest, réalisée en 2020 sous Unity pour valider mon DU « Psychologie et réalité virtuelle » (Université Paris 5).
+
+Le projet imagine un voyage dans le système solaire. Seule Neptune est visitable pour l'instant, dans un décor sous-marin. Le visiteur y joue d'un instrument qui existe réellement, le kikongi : chaque note frappée, selon la mailloche choisie, ajoute des plantes ou des animaux au décor. Le but est d'entrer en harmonie avec la nature, les éléments et les animaux.
+
+- Unity 2019.4 (branche `master`), Oculus Quest.
+- Shaders de gouttes d'eau, de bulles et de fractales pour l'immersion ; modèles 3D importés d'Autodesk au format .fbx.
+- 2026 : migration vers Unity 2022.3 et DOTS en cours, sur les branches `Version-DOTS` et `feature/DOTS-migration-unity2022`.
